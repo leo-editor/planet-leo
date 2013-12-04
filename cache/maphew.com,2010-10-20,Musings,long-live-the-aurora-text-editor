@@ -1,0 +1,27 @@
+<?xml version="1.0" ?><entry xml:lang="En" xmlns="http://www.w3.org/2005/Atom" xmlns:planet="http://planet.intertwingly.net/"><id>tag:www.maphew.com,2010-10-20:/Musings/long-live-the-aurora-text-editor</id><link href="http://www.maphew.com/Musings/long-live-the-aurora-text-editor/" rel="alternate" type="text/html"/><title xml:lang="En">Long Live the Aurora Text Editor</title><content type="xhtml" xml:lang="En"><div xmlns="http://www.w3.org/1999/xhtml"><p>Thanks to the persistence of Kent Nassen and the generosity of Jeff
+Wunderlich, the <a href="http://www-personal.umich.edu/~knassen/aurora.html" title="http://www-personal.umich.edu/%7Eknassen/aurora.html">Aurora Text
+Editor</a>
+can be downloaded and registered, “…the .bat file command I use to
+register is: ac -reg “Jeff Wunderlich” “xujcwpkgzngqmqn” 1 Feel free to
+share it with anyone on the net.”</p>
+<p>So what’s the big deal? Well I covered most of it a few years ago in
+<a href="http://web.archive.org/web/20080524194444/http://www.uttara.ca/patawi/matt/musings/favedit.html" title="http://web.archive.org/web/20080524194444/http://www.uttara.ca/patawi/matt/musings/favedit.html">Musing on the Favourite Text
+Editor</a>
+(slow link, involves time travel), but at the moment my biggest cause
+for joy is that I can, once again, select a column and inserting a
+character or range of characters (useful for turning fixed width text
+records into delimited text), and filling a columnar selection with an
+increasing pattern (1,2,3… a,b,c…) similar to Excel’s extend series
+command.</p>
+<p>Since I wrote the musing’s essay I’ve been a happy
+<a href="http://cream.sourceforge.net/" title="http://cream.sourceforge.net/">Cream</a>
+user,with occasional forays into
+<a href="http://notepad-plus.sourceforge.net/" title="http://notepad-plus.sourceforge.net/">Notepad++</a>
+when speed and portability (happy on a usb key) is desired. Now that
+Aurora is around and permanently free I’m positively cheery. Yes I know
+<a href="http://www.textpad.com/" title="http://www.textpad.com/">TextPad</a> can do
+column fills, and TP is a very fine editor indeed. I bought it for work
+after all, but it’s not cross platform and I don’t want to pay for it on
+for every computer I use. Besides, Aurora is only a 650kb download.
+Where else can you get so much editor bang for your buck? Seriously,
+where else?</p></div></content><updated planet:format="October 20, 2010 08:00 AM">2010-10-20T08:00:00Z</updated><category term="musings"/><author><name>matt wilkie</name><email>maphew+website@gmail.com</email><uri>http://www.maphew.com/</uri></author><source><id>tag:www.maphew.com,2011-06-11:/atom/</id><icon>http://www.maphew.com/favicon.ico</icon><logo>http://www.maphew.com/feed-logo.png</logo><author><name>matt wilkie</name><email>maphew+website@gmail.com</email><uri>http://www.maphew.com/</uri></author><link href="http://www.maphew.com/" rel="alternate" type="text/html"/><link href="http://www.maphew.com/atom/" rel="self" type="application/atom+xml"/><title xml:lang="En">a hewer of maps</title><updated planet:format="May 17, 2013 08:54 AM">2013-05-17T08:54:00Z</updated><planet:format>atom10</planet:format><planet:http_etag>&quot;2699bcc-1a063-4ec5e8c135200&quot;</planet:http_etag><planet:http_last_modified>Sat, 30 Nov 2013 05:52:08 GMT</planet:http_last_modified><planet:bozo>true</planet:bozo><planet:activity_threshold>0</planet:activity_threshold><planet:facewidth>65</planet:facewidth><planet:faceheight>85</planet:faceheight><planet:http_status>200</planet:http_status></source></entry>

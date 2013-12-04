@@ -1,0 +1,103 @@
+<?xml version="1.0" ?><entry xmlns="http://www.w3.org/2005/Atom" xmlns:planet="http://planet.intertwingly.net/"><id>tag:leo-editor.github.io,2013-05-10:valuespace-intro.html</id><link href="http://leo-editor.github.io/valuespace-intro.html" rel="alternate" type="text/html"/><title>Valuespace, the spreadsheet in your outliner</title><summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><div class="section" id="introduction">
+<h2>Introduction</h2>
+<p>Do you mostly use Leo as an outliner, &quot;thought organizer&quot; or data analysis tool? If so, this post can be useful to you. Valuespace won't help you much if you use Leo mostly as an IDE or code editor.</p>
+<p>I could easily wax philosophical about the valuespace plugin, but I can do it in a later blog post. Here, I'll just go ahead and tell what it does.</p>
+<p>Valuespace makes .leo document <em>executable</em>, turning the whole leo document to one big python &quot;script&quot; that assigns values to variables, uses those values to execute computations, and renders values of computations in the document itself.</p>
+<p>The way to tell leo to execute the current document is to run alt-x vs-update.</p>
+<div class="section" id="embed-scripts-in-body-text">
+<h3>Embed scripts in body text</h3>
+<p>Clearly, it makes no sense to execute everything in a .leo document that mostly consists of human readable text. To mark a part of body text as executable, use @x in the beginning of line.</p>
+<p>There are two variants of this. Single line statements look like this:</p>
+<div class="highlight"><pre><span class="n">This</span> <span class="ow">is</span> <span class="n">some</span> <span class="n">text</span>
+<span class="n">that</span> <span class="n">does</span> <span class="ow">not</span> <span class="n">get</span> <span class="n">executed</span>
+<span class="nd">@x</span> <span class="n">foo</span> <span class="o">=</span> <span class="mi">1</span> <span class="o">+</span> <span class="mi">2</span>
+<span class="n">more</span> <span class="n">text</span> <span class="n">follows</span>
+</pre></div>
+<p>Observant reader will not be surprised by what it does.</p>
+<p>Running large swatches of text is a natural extension of this notation:</p>
+<div class="highlight"><pre><span class="n">Some</span> <span class="n">text</span> <span class="n">that</span> <span class="n">doesn</span><span class="s">'t get executed</span>
+
+<span class="nd">@x</span> <span class="p">{</span>
+
+<span class="n">foo</span> <span class="o">=</span> <span class="mi">1</span> <span class="o">+</span> <span class="mi">2</span>
+<span class="n">bar</span> <span class="o">=</span> <span class="n">foo</span> <span class="o">+</span> <span class="mi">1</span>
+
+<span class="nd">@x</span> <span class="p">}</span>
+
+<span class="n">more</span> <span class="n">text</span> <span class="n">that</span> <span class="n">doesn</span><span class="s">'t get executed</span>
+</pre></div>
+<p>Note that leo &quot;tangling&quot; (parsing of  <cite>&lt;&lt; section &gt;&gt;</cite> blocks and <cite>@others</cite> directives) is run on the executed script, so if you want to split your python code to a deeper Leo tree, you can do something like this:</p>
+<div class="highlight"><pre><span class="nd">@x</span> <span class="p">{</span>
+        <span class="kn">import</span> <span class="nn">os</span><span class="o">,</span> <span class="nn">sys</span>
+
+        <span class="nd">@others</span>
+<span class="nd">@x</span> <span class="p">}</span>
+</pre></div>
+<p>This will interpret (and run) the subtree after doing the imports. For data analysis, you could e.g. have a first node called &quot;prelude&quot;, looking much like the snippet above, and in the subtree you could declare all the functions and classes used in the rest of the document.</p>
+<p>Sometimes, you don't really want to run a block, but rather assign it
+to a python variable for further processing. This extension of <cite>@x</cite> notation helps here:</p>
+<div class="highlight"><pre><span class="nd">@x</span> <span class="o">=</span><span class="n">somevar</span> <span class="p">{</span>
+<span class="n">text</span>
+<span class="n">that</span>
+<span class="n">gets</span> <span class="n">assigned</span> <span class="n">to</span> <span class="s">'somevar'</span>
+<span class="k">as</span> <span class="n">string</span>
+<span class="nd">@x</span> <span class="p">}</span>
+</pre></div>
+<p>In consecutive script blocks, you would now be free to reference the python variable 'somevar'.</p>
+<p>Now, sometimes the variable should be a list, and you want to accumulate blocks of text to that list. Further extension of the notation looks like this:</p>
+<div class="highlight"><pre><span class="nd">@x</span> <span class="o">=</span><span class="n">mylist</span><span class="o">+</span> <span class="p">{</span>
+<span class="n">some</span> <span class="n">text</span>
+<span class="nd">@x</span> <span class="p">}</span>
+
+<span class="n">Ignored</span> <span class="n">text</span>
+
+<span class="nd">@x</span> <span class="o">=</span><span class="n">mylist</span><span class="o">+</span> <span class="p">{</span>
+<span class="n">more</span> <span class="n">text</span>
+<span class="nd">@x</span> <span class="p">}</span>
+</pre></div>
+<p>Now, assuming <cite>mylist</cite> was instantiated as a list earlier, this would produce the final value of mylist as</p>
+<div class="highlight"><pre><span class="p">[</span><span class="s">'some text'</span><span class="p">,</span> <span class="s">'more text'</span><span class="p">]</span>
+</pre></div>
+</div>
+<div class="section" id="slurping-data-from-external-files">
+<h3>Slurping data from external files</h3>
+<p>If you processing data, you often want it to reside outside .leo document in external files (and follow the history separately version control, etc.). Valuespace currently has built in support for JSON and
+yaml files.</p>
+<p>Let's say you have JSON formatted data in foobar.json. To slurp in that data and store it in variable &quot;foobar&quot;, create a node with headline <cite>@vsi foobar.json</cite>. <cite>@vsi</cite> stands for &quot;valuespace input&quot;, and the extension .json instructs Leo to parse the file as json. For yaml files, use the extension .yaml.</p>
+<p>Symmetrically, <cite>@vso foobar.json</cite> instructs Leo to grab the value of variable 'foobar' and dump its value serialized as JSON to file 'foobar.json'</p>
+<p>In addition to reading or writing the data, both @vsi and @vso store the data as read/writted in the body text of the node. If you edit the body text, the changes are silently overwritten the next time you do <cite>vs-update</cite>.</p>
+</div>
+<div class="section" id="making-data-visible-in-the-outline">
+<h3>Making data visible in the outline</h3>
+<p>It's often useful to display the data in your Leo outline. You can use <cite>@r expr</cite> construct to evaluate a python expression and put the result of evaluation in the body of the node.</p>
+<p>E.g.</p>
+<p><strong>@r mystr.upper()</strong></p>
+<pre class="literal-block">HELLO WORLD
+</pre>
+</div>
+<div class="section" id="anchors">
+<h3>Anchors</h3>
+<p>To make valuespace scale to large Leo documents, not every node gets parsed for @x contstructs. To instruct vs-update to scan the body of a node for @x consructs, you need to add an &quot;anchor&quot; (node with @a as headline) as a child of that node. So your outline would look like this:</p>
+<ul class="simple">
+<li>Foo</li>
+<li>Bar<ul>
+<li>Baz</li>
+<li>@a</li>
+</ul>
+</li>
+<li>Quux</li>
+<li>Xyzzy</li>
+<li>@r myvar</li>
+</ul>
+<p>Here, only node &quot;Bar&quot; would have its body text scanned during vs-update. <cite>@r myvar</cite> would get evaluated despite the lack of the anchor, since it's headline-level construct that doesn't require parsing of the body.</p>
+<p>You can also give anchors a name; if you have an outline like this:</p>
+<ul class="simple">
+<li>Foo</li>
+<li>Bar<ul>
+<li>@a myvar</li>
+</ul>
+</li>
+</ul>
+<p>the contents (body) of node &quot;Bar&quot; would get assigned to variable 'myvar' (as string), <strong>and</strong> the body of node Bar gets scanned for @x tags.</p>
+</div>
+</div></div></summary><updated planet:format="May 10, 2013 08:34 PM">2013-05-10T20:34:00Z</updated><category term="plugins"/><author><name>Ville Vainio</name></author><source><id>http://leo-editor.github.io/</id><link href="http://leo-editor.github.io/" rel="alternate" type="text/html"/><link href="http://leo-editor.github.io/feeds%5Call.atom.xml" rel="self" type="application/atom+xml"/><title>Leo Blog</title><updated planet:format="November 27, 2013 11:00 PM">2013-11-27T23:00:00Z</updated><planet:activity_threshold>0</planet:activity_threshold><planet:faceheight>79</planet:faceheight><planet:format>atom10</planet:format><planet:facewidth>65</planet:facewidth><planet:http_last_modified>Thu, 28 Nov 2013 23:42:47 GMT</planet:http_last_modified><planet:face>leo_65x79.png</planet:face><planet:name>Official Leo Editor Blog</planet:name><planet:css-id>official-leo-editor-blog</planet:css-id><planet:bozo>false</planet:bozo><planet:http_status>200</planet:http_status></source></entry>

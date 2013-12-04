@@ -1,0 +1,59 @@
+<?xml version="1.0" ?><entry xml:lang="En" xmlns="http://www.w3.org/2005/Atom" xmlns:planet="http://planet.intertwingly.net/"><id>tag:www.maphew.com,2013-03-16:/web-dev/going-acrylic</id><link href="http://www.maphew.com/web-dev/going-acrylic/" rel="alternate" type="text/html"/><title xml:lang="En">Going Acrylic</title><content type="xhtml" xml:lang="En"><div xmlns="http://www.w3.org/1999/xhtml"><p><em>Recipe used for converting httrack snapshot of Mindtouch wiki to markdown for acrylamid</em></p>
+<h4>Generate the processing list</h4>
+<div class="highlight"><pre><span class="n">dir</span> <span class="o">/</span><span class="n">s</span><span class="o">/</span><span class="n">b</span> <span class="o">\</span><span class="n">www</span><span class="o">\</span><span class="n">maphew</span><span class="p">.</span><span class="n">com</span><span class="o">\*</span><span class="p">.</span><span class="n">html</span> <span class="o">&gt;</span> <span class="n">process</span><span class="o">-</span><span class="n">list</span><span class="p">.</span><span class="n">xt</span>
+</pre></div>
+
+
+<p>Edit process-list and remove junk, fix bad filenames (resultant from double quotes in name).  </p>
+<p>Copy to excel and:</p>
+<ul>
+<li>convert text to table using <code>\</code> for delim, </li>
+<li>apply conditional formatting highlighting <code>.html</code></li>
+<li>sort by html column</li>
+<li>remove duplicates</li>
+<li>save tab delimited</li>
+<li>search and replace tabs with <code>\</code>, removing dupes</li>
+</ul>
+<h4>Scripted Html to Markdown to Acrylamid</h4>
+<div class="highlight"><pre><span class="k">for</span> <span class="o">/</span><span class="n">f</span> <span class="c">%a in (process-list-cleaned.txt) do @mkdir .%~pa</span>
+
+<span class="k">for</span> <span class="o">/</span><span class="n">f</span> <span class="c">%a in (process-list-cleaned.txt) do ^</span>
+    <span class="p">@</span><span class="n">pandoc</span> <span class="o">--</span><span class="n">to</span> <span class="n">markdown</span> <span class="o">--</span><span class="n">standalone</span> <span class="o">--</span><span class="n">template</span> <span class="n">acrylamid</span><span class="o">-</span><span class="n">pandoc</span><span class="o">-</span><span class="n">template</span><span class="p">.</span><span class="n">txt</span> &quot;<span class="c">%a&quot; -o &quot;.\%~pa\%~na.md&quot;</span>
+
+<span class="n">acrylamid</span> <span class="n">init</span> <span class="n">converted</span>
+<span class="n">rd</span> <span class="o">/</span><span class="n">s</span><span class="o">/</span><span class="n">q</span> <span class="n">converted</span><span class="o">\</span><span class="n">content</span>
+<span class="n">move</span> <span class="n">www</span><span class="o">\</span><span class="n">maphew</span><span class="p">.</span><span class="n">com</span> <span class="n">converted</span>
+<span class="n">pushd</span> <span class="n">converted</span>
+<span class="n">rename</span> <span class="n">maphew</span><span class="p">.</span><span class="n">com</span> <span class="n">content</span>
+<span class="n">rd</span> <span class="o">/</span><span class="n">s</span><span class="o">/</span><span class="n">q</span> <span class="p">.</span><span class="o">.\</span><span class="n">www</span>
+
+<span class="n">copy</span> <span class="o">\</span><span class="n">www</span><span class="o">\</span><span class="n">acr</span><span class="o">\</span><span class="n">confy</span><span class="p">.</span><span class="n">py</span> <span class="o">.\</span><span class="n">conf</span><span class="p">.</span><span class="n">py</span>
+<span class="n">xcopy</span> <span class="o">\</span><span class="n">www</span><span class="o">\</span><span class="n">acr</span><span class="o">\</span><span class="n">theme</span><span class="o">\*</span> <span class="n">theme</span><span class="o">\*</span>
+
+<span class="n">acrylamid</span> <span class="n">compile</span> <span class="o">--</span><span class="n">search</span>
+<span class="p">::</span> <span class="nb">fix</span> <span class="n">title</span> <span class="n">collisions</span> <span class="n">as</span> <span class="n">needed</span>
+</pre></div>
+
+
+<h4>Clean up header &amp; footer crud</h4>
+<p>Remove Mindtouch leftovers such as <em>&quot;javascript must be enabled&quot;</em> and <em>&quot;Powered by...&quot;</em>, etc. etc. by using search and replace across all open files.</p>
+<p>Vim regexes:</p>
+<div class="highlight"><pre><span class="p">:</span><span class="n">bufdo</span><span class="p">:</span><span class="c">%s/^This application requires Javascript to be enabled\.\_.* Table of contents$//</span>
+<span class="p">:</span><span class="n">bufdo</span><span class="p">:</span><span class="c">%s/\*No headers\*//</span>
+<span class="p">:</span><span class="n">bufdo</span> <span class="c">%s/Powered by \[MindTouch Core\_.*maphew)//e</span>
+<span class="p">:</span><span class="n">bufdo</span> <span class="c">%s/---\n\n\n*/---\r\r/e</span>
+<span class="p">:</span><span class="n">bufdo</span> <span class="c">%s/$title:\(.*\) - maphew$/title:\1/e</span>
+</pre></div>
+
+
+<p>Sources:</p>
+<ul>
+<li>http://vim.wikia.com/wiki/Search_across_multiple_lines</li>
+<li>http://vim.wikia.com/wiki/Search_and_replace_in_multiple_buffers</li>
+</ul>
+<h5>Fix dates</h5>
+<p><strong>This marks the end of the automated repeatable process.</strong></p>
+<p>Read through <em>Special_RecentChanges</em> and manually edit each .md to reflect last time touched. We don't have dates for content which was migrated to Mindtouch (prior to 17.10.2009).</p>
+<h4>Add tags</h4>
+<p>The folders are the primary tag, so search *.md and sort by location, then drag'n'drop each group into a handy text editor and paste the appropriate tag(s) in each. </p>
+<p>I'm sure there's a way to automate this, but I decided it would be faster to brute force my way through (esp. since we've already broken with repeatable process anyway).</p></div></content><updated planet:format="March 16, 2013 08:00 AM">2013-03-16T08:00:00Z</updated><category term="web-dev"/><category term="technical"/><author><name>matt wilkie</name><email>maphew+website@gmail.com</email><uri>http://www.maphew.com/</uri></author><source><id>tag:www.maphew.com,2011-06-11:/atom/</id><icon>http://www.maphew.com/favicon.ico</icon><logo>http://www.maphew.com/feed-logo.png</logo><author><name>matt wilkie</name><email>maphew+website@gmail.com</email><uri>http://www.maphew.com/</uri></author><link href="http://www.maphew.com/" rel="alternate" type="text/html"/><link href="http://www.maphew.com/atom/" rel="self" type="application/atom+xml"/><title xml:lang="En">a hewer of maps</title><updated planet:format="May 17, 2013 08:54 AM">2013-05-17T08:54:00Z</updated><planet:format>atom10</planet:format><planet:http_etag>&quot;2699bcc-1a063-4ec5e8c135200&quot;</planet:http_etag><planet:http_last_modified>Sat, 30 Nov 2013 05:52:08 GMT</planet:http_last_modified><planet:bozo>true</planet:bozo><planet:activity_threshold>0</planet:activity_threshold><planet:facewidth>65</planet:facewidth><planet:faceheight>85</planet:faceheight><planet:http_status>200</planet:http_status></source></entry>

@@ -1,0 +1,267 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:planet="http://planet.intertwingly.net/" xmlns:indexing="urn:atom-extension:indexing" indexing:index="no"><access:restriction xmlns:access="http://www.bloglines.com/about/specs/fac-1.0" relationship="deny"/>
+  <title>Planet Leo</title>
+  <updated>2013-12-04T09:04:47Z</updated>
+  <generator uri="http://intertwingly.net/code/venus/">Venus</generator>
+  <author>
+    <name>Leo Editor mailing list</name>
+    <email>leo-editor@googlegroups.com</email>
+  </author>
+  <id>http://leoeditor.com/atom.xml</id>
+  <link href="http://leoeditor.com/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="http://leoeditor.com" rel="alternate"/>
+
+  <entry>
+    <id>tag:leo-editor.github.io,2013-11-28:register_leo.html</id>
+    <link href="http://leo-editor.github.io/register_leo.html" rel="alternate" type="text/html"/>
+    <title>Registering Leo with Windows</title>
+    <summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p><em>a post in progress</em></p>
+<p>Installing Leo using the standard setup program from Sourceforge does nice things like create Start Menu &amp; Desktop shortcuts and enable open Leo files with a simple double-click. For those that like to run from source code or a portable drive there are <a href="http://leoeditor.com/installing.html#installing-from-sources-windows">manual instructions</a> for doing the same, but it's fiddly and rapidly gets old. Why repeat when automation is possible?</p>
+<p>Introducing <strong><a href="http://bazaar.launchpad.net/~leo-editor-team/leo-editor/trunk3/view/head:/leo/scripts/register-leo.leox">register-leo.leox</a></strong> (and <a href="http://bazaar.launchpad.net/~leo-editor-team/leo-editor/trunk3/view/head:/leo/scripts/unregister-leo.leox">unregister-leo</a>): which creates the necessary Windows registry keys for integration with Explorer and friends. After running this script .leo and .leox files are shown with the Leo icon, and double-clicking on them will open them in Leo.</p>
+<p>To use: open a command shell with administrative rights, and run:</p>
+<div class="highlight"><pre>    d:\path\to\python.exe d:\path\to\leo\launchLeo.py e:\path\to\register-leo.leox
+</pre></div>
+
+
+<p>All in one step: you can try the <a href="http://bazaar.launchpad.net/~leo-editor-team/leo-editor/trunk3/view/head:/leo/scripts/elevate.py"><code>elevate.py</code></a> script which will ask for Admin privileges from a regular command shell:</p>
+<div class="highlight"><pre>    d:\path\to\python.exe d:\path\to\leo\leo\scripts\elevate.py e:\path\to\register-leo.leox
+</pre></div>
+
+
+<p>Eventually I'd like to see this activated from a Settings/Options/Preferences menu. Then we can distribute daily and portable builds of Leo and still have easy (dis)integration with the host (on Windows) and not rely so heavily on stable builds and installers, which are few and long between 'cause of the pain in building them.</p>
+<p>Developed and tested with Python 2.7, Leo 4.10 and Win7 x64. Py3 needs work.</p>
+<p>Feedback/testing/patches welcome (see mailing list).</p>
+<p>-Matt Wilkie</p>
+<hr/>
+<h2>Notes</h2>
+<h4>What's this <code>.leox</code>?</h4>
+<p>I created this convention so I could easily distinguish regular Leo files, which can be about anything, and Leo files which are runnable Leo scripts. The intention is to allow for things like:</p>
+<div class="highlight"><pre>    leo --script d:\path\to\scripts\register-leo.leox
+</pre></div>
+
+
+<p>At present double-clicking a .leox opens in edit mode. It occurs to me as I write this it could be changed so it runs automatically by adding, <code>--script</code> (quotes might need fiddling with):</p>
+<div class="highlight"><pre><span class="n">ftype</span> <span class="n">LeoFile</span><span class="o">=</span><span class="s">"C:\Python27\python.exe"</span> <span class="s">"B:</span><span class="se">\a</span><span class="s">pps\leo\launchLeo.py"</span> <span class="s">"--script ""%1"" %*</span>
+</pre></div>
+
+
+<h4>Any .leo is a launcher</h4>
+<p>Association has the added benefit of removing the need for most to create a batch file and then figure out where in PATH to store it in order to use Leo. As a matter of fact, any .leo file becomes the equivalent of launchLeo.py, just try this:</p>
+<div class="highlight"><pre><span class="c">%homedrive%\homepath%\workbook.leo x:\path\to\some\other\leofile.leo</span>
+</pre></div>
+
+
+<p>or to build on the previous note:</p>
+<div class="highlight"><pre><span class="c">%homedrive%\homepath%\workbook.leo --script ..\scripts\unregister-leo.leox</span>
+</pre></div>
+
+
+<h3>Resources used</h3>
+<p>http://superuser.com/questions/88491/force-cmd-exe-to-run-as-admin/<br/>
+http://stackoverflow.com/questions/2331690/how-to-set-a-icon-file-while-creating-file<br/>
+http://stackoverflow.com/questions/771689/how-can-i-set-an-icon-for-my-own-file-extension</p></div>
+    </summary>
+    <updated>2013-11-27T23:00:00Z</updated>
+    <category term="Windows"/>
+    <category term="install"/>
+    <category term="scripts"/>
+    <author>
+      <name>Matt Wilkie</name>
+    </author>
+    <source>
+      <id>http://leo-editor.github.io/</id>
+      <link href="http://leo-editor.github.io/" rel="alternate" type="text/html"/>
+      <link href="http://leo-editor.github.io/feeds%5Call.atom.xml" rel="self" type="application/atom+xml"/>
+      <title>Leo Blog</title>
+      <updated>2013-11-27T23:00:00Z</updated>
+    </source>
+  </entry>
+
+  <entry>
+    <id>tag:leo-editor.github.io,2013-11-04:nodewatch_productivity.html</id>
+    <link href="http://leo-editor.github.io/nodewatch_productivity.html" rel="alternate" type="text/html"/>
+    <title>Nodewatch for Productivity</title>
+    <summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Over on my personal blog, I've posted a <a class="reference external" href="http://blog.suspended-chord.info/2013/11/04/nodewatch-for-productivity/">quick example of how I use nodewatch.py to stay productive</a>.</p></div>
+    </summary>
+    <updated>2013-11-03T23:00:00Z</updated>
+    <category term="plugins"/>
+    <author>
+      <name>Jacob Peck</name>
+    </author>
+    <source>
+      <id>http://leo-editor.github.io/</id>
+      <link href="http://leo-editor.github.io/" rel="alternate" type="text/html"/>
+      <link href="http://leo-editor.github.io/feeds%5Call.atom.xml" rel="self" type="application/atom+xml"/>
+      <title>Leo Blog</title>
+      <updated>2013-11-27T23:00:00Z</updated>
+    </source>
+  </entry>
+
+  <entry>
+    <id>tag:leo-editor.github.io,2013-10-24:bookmarks_video.html</id>
+    <link href="http://leo-editor.github.io/bookmarks_video.html" rel="alternate" type="text/html"/>
+    <title>Leo editor bookmarks plugin demo on Vimeo</title>
+    <summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p><a href="http://vimeo.com/77720098">Leo editor bookmarks plugin demo.</a> from <a href="http://vimeo.com/user8438028">Terry Brown</a> on <a href="https://vimeo.com">Vimeo</a>.</p></div>
+    </summary>
+    <updated>2013-10-23T22:00:00Z</updated>
+    <category term="plugins"/>
+    <author>
+      <name>Terry Brown</name>
+    </author>
+    <source>
+      <id>http://leo-editor.github.io/</id>
+      <link href="http://leo-editor.github.io/" rel="alternate" type="text/html"/>
+      <link href="http://leo-editor.github.io/feeds%5Call.atom.xml" rel="self" type="application/atom+xml"/>
+      <title>Leo Blog</title>
+      <updated>2013-11-27T23:00:00Z</updated>
+    </source>
+  </entry>
+
+  <entry xml:lang="En">
+    <id>tag:www.maphew.com,2013-05-17:/Itches/oh-assign-assign-wherefore-art-thou-assign</id>
+    <link href="http://www.maphew.com/Itches/oh-assign-assign-wherefore-art-thou-assign/" rel="alternate" type="text/html"/>
+    <title xml:lang="En">Oh Assign, Assign, wherefore art thou Assign?</title>
+    <content type="xhtml" xml:lang="En"><div xmlns="http://www.w3.org/1999/xhtml"><p>Most of my computer life of the last few years has lived within Dropbox. It's proven to be a very hands off largely no-thought means of ensuring the 3 Windows computers I use regularly at work and home all have almost identical tool chains and environments. It's always bugged me though, that my "home" is buried under <code>C:\Users\matt\Dropbox</code> (though at least with Win7 it's not under that horrible "Documents and Settings" folder!). Way too freakin much typing just to get to the point of starting work, or fun.</p>
+<p>I've tried several methods for making this more livable, and each succeeds to a certain extent -- though <em>none</em> come close to matching what we had 20 years ago with the <a href="http://en.wikipedia.org/wiki/AmigaOS" title="scan for  assign">Amiga</a>.</p>
+<h4>Move Dropbox to root of C:</h4>
+<p>yech. user data on same partition as operating system. never been comfortable with this. I want OS and Programs over <em>[there]</em>, my docs and stuff <em>[here]</em>, and easily wipe or restore one without touching the other.</p>
+<h4>Mapped "Network" Drive</h4>
+<p>Open a command shell, fire off <code>net use B: \\localhost\c$\users\%username%\Dropbox /persistent:yes</code>.</p>
+<p>(So nice that A: and B: almost never exist anymore, and are thus available, even when joined to a domain.)</p>
+<p>Worked swimmingly well for several months, until learning that the mysterious Mecurial and Bazaar lock errors I would encounter at seemingly random occasions and took hours to get out of were due to timing issues in the underlying network transport protocols, even though everything was happening on the local machine and darn fast, to human perception.</p>
+<p>Also can't use any commands requiring elevated privileges because "B:" isn't available to Administrator. (why o why doesn't Windows have <code>sudo</code>??)</p>
+<h4>Subst-tituted Drive</h4>
+<p><code>subst b: c:\users\%username%\dropbox</code></p>
+<p>An effective cure for the timing issues noted previously. Suffers from lack of sudo, which has been real problem while trying to work on improving Leo and Osgeo4w install packages.</p>
+<h4>Separate Partition</h4>
+<p>The Dropbox app steadfastly refuses to use a bare drive as it's home, and insists on creating a folder called <code>Dropbox</code> where you point it. If you run a client older than 1.6 or so, before the database was encrypted, it is possible to open the <code>config.db</code> file in an sqlite3 aware db program and change the folder name manually, including to a bare drive letter. </p>
+<p>There are some features lost with this, plus you'll also be syncing the <em>Recycle Bin</em> and <em>System Volume Information</em>, which could cause other issues.</p>
+<h4>Mounted NTFS Folder</h4>
+<p><strong>Finally</strong>, yesterday, I hit open the best possible solution short of the Amiga's Second Coming: create a separate partition and volume and instead of assigning it a drive letter mount it to an empty NTFS folder, and then <code>subst</code> that. </p>
+<div class="highlight"><pre>C:\Users\<span class="o">%</span>username<span class="o">%</span>\Dropbox     <span class="o">&lt;--</span> mount volume here
+subst b: C:\Users\<span class="o">%</span>username<span class="o">%</span>\Dropbox
+</pre></div>
+
+
+<p>For extra flourish, size the volume to your Dropbox limit. Doing so you always know at a glance how close you are to your quota. (Good idea to make it 15% than actual quota for breathing room. It's enough space to defrag, and Windows will get markedly slower on volumes with less free board.)</p>
+<p><img alt="dropbox volume in My Computer" src="http://www.maphew.com/files/itches/dropbox-volume.jpg"/></p></div>
+    </content>
+    <updated>2013-05-17T08:54:00Z</updated>
+    <category term="itches"/>
+    <author>
+      <name>matt wilkie</name>
+      <email>maphew+website@gmail.com</email>
+      <uri>http://www.maphew.com/</uri>
+    </author>
+    <source>
+      <id>tag:www.maphew.com,2011-06-11:/atom/</id>
+      <icon>http://www.maphew.com/favicon.ico</icon>
+      <logo>http://www.maphew.com/feed-logo.png</logo>
+      <author>
+        <name>matt wilkie</name>
+        <email>maphew+website@gmail.com</email>
+        <uri>http://www.maphew.com/</uri>
+      </author>
+      <link href="http://www.maphew.com/" rel="alternate" type="text/html"/>
+      <link href="http://www.maphew.com/atom/" rel="self" type="application/atom+xml"/>
+      <title xml:lang="En">a hewer of maps</title>
+      <updated>2013-05-17T08:54:00Z</updated>
+    </source>
+  </entry>
+
+  <entry xml:lang="En">
+    <id>tag:www.maphew.com,2013-05-16:/Python/python-fixit-snippets</id>
+    <link href="http://www.maphew.com/Python/python-fixit-snippets/" rel="alternate" type="text/html"/>
+    <title xml:lang="En">Python fixit snippets</title>
+    <content type="xhtml" xml:lang="En"><div xmlns="http://www.w3.org/1999/xhtml"><p>Very short problems about python, found and fixed.</p>
+<div class="highlight"><pre><span class="o">&gt;</span><span class="n">pip</span>
+<span class="n">failed</span> <span class="n">to</span> <span class="n">create</span> <span class="n">process</span><span class="p">.</span>
+</pre></div>
+
+
+<p>whups, this worked yesterday. Whatup? --&gt; drive letters/paths have been
+changed. The path to python.exe specified in pip.exe has moved. Solution:
+<a href="http://www.maphew.com/Python/install-pip-script/">reinstall pip</a> (and any other py programs similarly impacted).</p></div>
+    </content>
+    <updated>2013-05-16T18:54:00Z</updated>
+    <category term="fixes"/>
+    <category term="python"/>
+    <author>
+      <name>matt wilkie</name>
+      <email>maphew+website@gmail.com</email>
+      <uri>http://www.maphew.com/</uri>
+    </author>
+    <source>
+      <id>tag:www.maphew.com,2011-06-11:/atom/</id>
+      <icon>http://www.maphew.com/favicon.ico</icon>
+      <logo>http://www.maphew.com/feed-logo.png</logo>
+      <author>
+        <name>matt wilkie</name>
+        <email>maphew+website@gmail.com</email>
+        <uri>http://www.maphew.com/</uri>
+      </author>
+      <link href="http://www.maphew.com/" rel="alternate" type="text/html"/>
+      <link href="http://www.maphew.com/atom/" rel="self" type="application/atom+xml"/>
+      <title xml:lang="En">a hewer of maps</title>
+      <updated>2013-05-17T08:54:00Z</updated>
+    </source>
+  </entry>
+
+  <entry xml:lang="En">
+    <id>tag:www.maphew.com,2013-04-28:/Projects/portable-leo-from-scratch-on-windows</id>
+    <link href="http://www.maphew.com/Projects/portable-leo-from-scratch-on-windows/" rel="alternate" type="text/html"/>
+    <title xml:lang="En">Portable Leo from scratch on Windows</title>
+    <content type="xhtml" xml:lang="En"><div xmlns="http://www.w3.org/1999/xhtml"><p>Here is a recipe for installing <a href="http://leoeditor.com">Leo</a> from scratch on Windows (Win7 tested). The only prerequisites are command line <code>wget</code> in PATH and an internet connection.</p>
+<p>About 50mb of files are downloaded and 200mb consumed when done.</p>
+<p>Open a command prompt and run:</p>
+<div class="highlight"><pre><span class="n">mkdir</span> <span class="n">X</span><span class="p">:</span><span class="o">\</span><span class="n">testing</span>
+<span class="n">pushd</span> <span class="n">X</span><span class="p">:</span><span class="o">\</span><span class="n">testing</span>
+
+<span class="n">wget</span> <span class="o">-</span><span class="n">O</span> <span class="n">apt</span><span class="p">.</span><span class="n">exe</span> <span class="o">--</span><span class="n">no</span><span class="o">-</span><span class="n">clobber</span> <span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">download</span><span class="p">.</span><span class="n">osgeo</span><span class="p">.</span><span class="n">org</span><span class="o">/</span><span class="n">osgeo4w</span><span class="o">/</span><span class="n">release</span><span class="o">/</span><span class="n">apt</span><span class="o">/</span><span class="n">apt</span><span class="o">-</span><span class="n">r1193M</span><span class="p">.</span><span class="n">exe</span>
+<span class="n">SET</span> <span class="n">OSGEO4W_ROOT</span><span class="p">=</span><span class="c">%~dp0\root</span>
+<span class="n">apt</span> <span class="n">setup</span>
+<span class="n">apt</span> <span class="n">update</span>
+<span class="n">apt</span> <span class="n">install</span> <span class="n">pyqt4</span> <span class="n">sip</span>
+
+<span class="n">call</span> <span class="n">root</span><span class="o">\</span><span class="n">osgeo4w</span><span class="p">.</span><span class="n">bat</span>
+
+<span class="n">wget</span> <span class="o">--</span><span class="n">no</span><span class="o">-</span><span class="n">check</span><span class="o">-</span><span class="n">certificate</span> <span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">gist</span><span class="p">.</span><span class="n">github</span><span class="p">.</span><span class="n">com</span><span class="o">/</span><span class="n">maphew</span><span class="o">/</span>5393935<span class="o">/</span><span class="n">raw</span><span class="o">/</span><span class="n">install</span><span class="o">-</span><span class="n">pip</span><span class="p">.</span><span class="n">py</span>
+<span class="n">python</span> <span class="n">install</span><span class="o">-</span><span class="n">pip</span><span class="p">.</span><span class="n">py</span> <span class="n">GO</span>
+<span class="n">python</span> <span class="n">install</span><span class="o">-</span><span class="n">pip</span><span class="p">.</span><span class="n">py</span> <span class="n">GO</span>
+
+<span class="n">pip</span> <span class="n">install</span> <span class="o">-</span><span class="nb">i</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">testpypi</span><span class="p">.</span><span class="n">python</span><span class="p">.</span><span class="n">org</span><span class="o">/</span><span class="n">pypi</span> <span class="n">leo</span><span class="o">-</span><span class="n">editor</span>
+
+<span class="n">python</span> <span class="n">apps</span><span class="o">\</span><span class="n">Python27</span><span class="o">\</span><span class="n">Scripts</span><span class="o">\</span><span class="n">leo</span>
+</pre></div>
+
+
+<p>After this the directory <code>X:\testing\root</code> can be renamed and/or moved anywhere.</p>
+<p>To run leo in future sessions, simply call <code>x:\path\to\root\osgeo4w.bat python apps\Python27\Scripts\leo</code>, either as a batch file or windows shortcut.</p>
+<p>IMPORTANT NOTE - this is just a proof of concept. It pulls together a couple of my different projects, and is very satisfying in that regard (yay! they work!), but is not ready for prime time. Feedback welcome.</p>
+<p>(((this is a post in progress, see <a href="https://groups.google.com/forum/?hl=en&amp;fromgroups=#!searchin/leo-editor/portable|sort:date/leo-editor/pH4mHaSRbfc/tQcxjn37xKUJ">this thread</a> for more)))</p></div>
+    </content>
+    <updated>2013-04-28T08:00:00Z</updated>
+    <category term="projects"/>
+    <category term="leo"/>
+    <category term="python"/>
+    <author>
+      <name>matt wilkie</name>
+      <email>maphew+website@gmail.com</email>
+      <uri>http://www.maphew.com/</uri>
+    </author>
+    <source>
+      <id>tag:www.maphew.com,2011-06-11:/atom/</id>
+      <icon>http://www.maphew.com/favicon.ico</icon>
+      <logo>http://www.maphew.com/feed-logo.png</logo>
+      <author>
+        <name>matt wilkie</name>
+        <email>maphew+website@gmail.com</email>
+        <uri>http://www.maphew.com/</uri>
+      </author>
+      <link href="http://www.maphew.com/" rel="alternate" type="text/html"/>
+      <link href="http://www.maphew.com/atom/" rel="self" type="application/atom+xml"/>
+      <title xml:lang="En">a hewer of maps</title>
+      <updated>2013-05-17T08:54:00Z</updated>
+    </source>
+  </entry>
+</feed>

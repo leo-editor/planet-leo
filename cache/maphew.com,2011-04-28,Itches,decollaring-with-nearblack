@@ -1,0 +1,27 @@
+<?xml version="1.0" ?><entry xml:lang="En" xmlns="http://www.w3.org/2005/Atom" xmlns:planet="http://planet.intertwingly.net/"><id>tag:www.maphew.com,2011-04-28:/Itches/decollaring-with-nearblack</id><link href="http://www.maphew.com/Itches/decollaring-with-nearblack/" rel="alternate" type="text/html"/><title xml:lang="En">Decollaring with nearblack</title><content type="xhtml" xml:lang="En"><div xmlns="http://www.w3.org/1999/xhtml"><p><em><a href="http://www.maphew.com/files/62/%3dto-be-decollared.jpg" title="to-be-decollared.jpg"><img alt="to-be-decollared.jpg" src="http://www.maphew.com/files/62/%3dto-be-decollared7902.jpg?size=webview"/></a>The
+<a href="http://www.maphew.com/files/63/%3dto-be-decollared.tif" title="/@api/deki/files/63/=to-be-decollared.tif">attached
+geotiff</a>
+image has two collars to be removed. The outermost consists of pure
+black (0,0,0) while the innermost is off-white (ranges from 240 thru
+255). I used
+<a href="http://code.google.com/p/maphew/source/browse/trunk/gis/o4w_extras/bin/gdalsetnull.py" title="http://code.google.com/p/maphew/source/browse/trunk/gis/o4w_extras/bin/gdalsetnull.py">gdalsetnull</a>
+to change 0,0,0 to nodata, then ran
+`<a href="http://www.gdal.org/nearblack.html" title="http://www.gdal.org/nearblack.html">nearblack</a>
+-white` on the result. I detect no difference in the output image even
+with a very large fuzz factor (-near 50) .</em></p>
+<p><em>What am I doing wrong?</em></p>
+<h5>Answers</h5>
+<p>From Even Rouault I learned that <a href="http://osgeo-org.1803224.n2.nabble.com/gdal-dev-nearblack-troubles-tp6310029p6310401.html" title="http://osgeo-org.1803224.n2.nabble.com/gdal-dev-nearblack-troubles-tp6310029p6310401.html">nearblack doesn't grok
+nodata</a>,
+it just looks at the pixel values. Consequently it never sees the white
+collar, except a small portion at the very top of the image.</p>
+<p>Thankfully Luke Pinner, who's come to my aid
+<a href="http://www.maphew.com\Itches\Projects\appy.html" title="Projects/appy">before</a>, has an elegant solution
+using a VRT intermediate file
+<a href="http://osgeo-org.1803224.n2.nabble.com/gdal-dev-nearblack-troubles-tp6310029p6311500.html" title="http://osgeo-org.1803224.n2.nabble.com/gdal-dev-nearblack-troubles-tp6310029p6311500.html">(ref)</a>:</p>
+<div class="highlight"><pre><span class="c">#Change black to white</span>
+<span class="n">gdalbuildvrt</span> <span class="o">-</span><span class="n">srcnodata</span> 0 <span class="o">-</span><span class="n">vrtnodata</span> 255 <span class="n">to</span><span class="o">-</span><span class="n">be</span><span class="o">-</span><span class="n">decollared</span><span class="p">.</span><span class="n">vrt</span>
+<span class="n">to</span><span class="o">-</span><span class="n">be</span><span class="o">-</span><span class="n">decollared</span><span class="p">.</span><span class="n">tif</span>
+<span class="c">#Run nearblack -white</span>
+<span class="n">nearblack</span> <span class="o">-</span><span class="nb">white</span> <span class="o">-</span><span class="n">o</span> <span class="n">decollared</span><span class="p">.</span><span class="n">tif</span> <span class="n">to</span><span class="o">-</span><span class="n">be</span><span class="o">-</span><span class="n">decollared</span><span class="p">.</span><span class="n">vrt</span>
+</pre></div></div></content><updated planet:format="April 28, 2011 08:00 AM">2011-04-28T08:00:00Z</updated><category term="itches"/><author><name>matt wilkie</name><email>maphew+website@gmail.com</email><uri>http://www.maphew.com/</uri></author><source><id>tag:www.maphew.com,2011-06-11:/atom/</id><icon>http://www.maphew.com/favicon.ico</icon><logo>http://www.maphew.com/feed-logo.png</logo><author><name>matt wilkie</name><email>maphew+website@gmail.com</email><uri>http://www.maphew.com/</uri></author><link href="http://www.maphew.com/" rel="alternate" type="text/html"/><link href="http://www.maphew.com/atom/" rel="self" type="application/atom+xml"/><title xml:lang="En">a hewer of maps</title><updated planet:format="May 17, 2013 08:54 AM">2013-05-17T08:54:00Z</updated><planet:format>atom10</planet:format><planet:http_etag>&quot;2699bcc-1a063-4ec5e8c135200&quot;</planet:http_etag><planet:http_last_modified>Sat, 30 Nov 2013 05:52:08 GMT</planet:http_last_modified><planet:bozo>true</planet:bozo><planet:activity_threshold>0</planet:activity_threshold><planet:facewidth>65</planet:facewidth><planet:faceheight>85</planet:faceheight><planet:http_status>200</planet:http_status></source></entry>

@@ -1,0 +1,26 @@
+<?xml version="1.0" ?><entry xml:lang="En" xmlns="http://www.w3.org/2005/Atom" xmlns:planet="http://planet.intertwingly.net/"><id>tag:www.maphew.com,2010-10-08:/Projects/Cahill-Keyes_Butterfly_Map/mj-s-work-reproduced</id><link href="http://www.maphew.com/Projects/Cahill-Keyes_Butterfly_Map/mj-s-work-reproduced/" rel="alternate" type="text/html"/><title xml:lang="En">MJ's work reproduced</title><content type="xhtml" xml:lang="En"><div xmlns="http://www.w3.org/1999/xhtml"><p><em>2010-Oct-08</em></p>
+<p>I've successfully recreated the single octant and eight octant Open
+Office drawings from the macros and instructions provided. It took a
+couple of hours because I had to figure out how OO macro dialogs work,
+and don't. There were some errors at the beginning that went away by
+themselves -- which always make me nervous because one is never sure if
+one day they might also decide to come back by themselves! I used OO
+v3.2 on linux so that may have contributed to the difficulty.</p>
+<p><a href="http://www.maphew.com/files/53/%3dScreenshot-results_StepB_do-8-octant-svg.png" title="Screenshot-results_StepB_do-8-octant-svg.png"><img alt="8-octant-svg_thumb.png" src="http://www.maphew.com/files/54/%3d8-octant-svg_thumb.png"/></a></p>
+<p>Results are at
+<a href="https://bitbucket.org/maphew/cahill-keyes/changeset/5b36f8fd8471" title="https://bitbucket.org/maphew/cahill-keyes/changeset/5b36f8fd8471">https://bitbucket.org/maphew/cahill-...t/5b36f8fd8471</a>
+(download using [get source] link at right)\
+ \
+ Anyway, the upshot is now I have a practical understanding of what the
+macros do and some glimmerings of how to improve one or two things. I
+don't have much faith in being able to use oo-Draw long term for this
+project as it is quite sluggish already with just the grid and graticule
+let alone any geography loaded. On the other hand, it *is* a working
+prototype so it's not time to discard just yet. :)\
+ \
+ The .svg file was created by a simple <em>File &gt; Export</em> from oo-Draw and
+loads into Inkscape very nicely. This is encouraging as it means the
+work is portable; SVG - scalable vector graphic - is a vendor 
+independent standard format understood by a variety of programs in both
+the graphic design and GIS/CAD industries.\
+  </p></div></content><updated planet:format="October 08, 2010 08:00 AM">2010-10-08T08:00:00Z</updated><category term="gis"/><category term="cahill"/><author><name>matt wilkie</name><email>maphew+website@gmail.com</email><uri>http://www.maphew.com/</uri></author><source><id>tag:www.maphew.com,2011-06-11:/atom/</id><icon>http://www.maphew.com/favicon.ico</icon><logo>http://www.maphew.com/feed-logo.png</logo><author><name>matt wilkie</name><email>maphew+website@gmail.com</email><uri>http://www.maphew.com/</uri></author><link href="http://www.maphew.com/" rel="alternate" type="text/html"/><link href="http://www.maphew.com/atom/" rel="self" type="application/atom+xml"/><title xml:lang="En">a hewer of maps</title><updated planet:format="May 17, 2013 08:54 AM">2013-05-17T08:54:00Z</updated><planet:format>atom10</planet:format><planet:http_etag>&quot;2699bcc-1a063-4ec5e8c135200&quot;</planet:http_etag><planet:http_last_modified>Sat, 30 Nov 2013 05:52:08 GMT</planet:http_last_modified><planet:bozo>true</planet:bozo><planet:activity_threshold>0</planet:activity_threshold><planet:facewidth>65</planet:facewidth><planet:faceheight>85</planet:faceheight><planet:http_status>200</planet:http_status></source></entry>

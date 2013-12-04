@@ -1,0 +1,23 @@
+<?xml version="1.0" ?><entry xml:lang="En" xmlns="http://www.w3.org/2005/Atom" xmlns:planet="http://planet.intertwingly.net/"><id>tag:www.maphew.com,2011-08-03:/web-dev/mindtouch</id><link href="http://www.maphew.com/web-dev/mindtouch/" rel="alternate" type="text/html"/><title xml:lang="En">Mindtouch</title><content type="xhtml" xml:lang="En"><div xmlns="http://www.w3.org/1999/xhtml"><h5>v10 license file for Core</h5>
+<p><a href="http://developer.mindtouch.com/en" title="http://developer.mindtouch.com/en">Mindtouch</a>
+now consolidates all of it's products into a single set of packages,
+which is good, however this necessitates contacting HQ for a license
+file even for the open source Core version. Some are bothered by this
+and don't want to give Mindtouch Corp their email address. If you are in
+this group feel free to use the <a href="http://www.maphew.com/files/64/%3dmindtouch-v10-core-license.xml" title="/@api/deki/files/64/=mindtouch-v10-core-license.xml">attached license
+file</a>
+(rename to 'license.xml'). It is &quot;licensed&quot; to
+<a href="http://www.mailinator.com/maildir.jsp?email=mindtouch-core&amp;x=0&amp;y=0" title="http://www.mailinator.com/maildir.jsp?email=mindtouch-core&amp;x=0&amp;y=0">mindtouch-core@safetymail.info</a>.</p>
+<h5>Downgrade from Enterprise to Core</h5>
+<p>As a result of <a href="http://forums.developer.mindtouch.com/showthread.php?6902-Downgrading-Mindtouch-Standard-to-Mindtouch-Core" title="http://forums.developer.mindtouch.com/showthread.php?6902-Downgrading-Mindtouch-Standard-to-Mindtouch-Core">this
+thread</a>
+I periodically get private messages asking how to downgrade to the open
+source. It's really very simple (though I don't know if this is still
+true with v10):</p>
+<blockquote>
+<p>hi maphew, we are not allowed to talk about that in the forum...
+don't know why! so, just delete the license.xml, restart dekihost and
+you're back on core =)</p>
+<p>best regards,<br/>
+ ---snip---</p>
+</blockquote></div></content><updated planet:format="August 03, 2011 08:00 AM">2011-08-03T08:00:00Z</updated><category term="web-dev"/><author><name>matt wilkie</name><email>maphew+website@gmail.com</email><uri>http://www.maphew.com/</uri></author><source><id>tag:www.maphew.com,2011-06-11:/atom/</id><icon>http://www.maphew.com/favicon.ico</icon><logo>http://www.maphew.com/feed-logo.png</logo><author><name>matt wilkie</name><email>maphew+website@gmail.com</email><uri>http://www.maphew.com/</uri></author><link href="http://www.maphew.com/" rel="alternate" type="text/html"/><link href="http://www.maphew.com/atom/" rel="self" type="application/atom+xml"/><title xml:lang="En">a hewer of maps</title><updated planet:format="May 17, 2013 08:54 AM">2013-05-17T08:54:00Z</updated><planet:format>atom10</planet:format><planet:http_etag>&quot;2699bcc-1a063-4ec5e8c135200&quot;</planet:http_etag><planet:http_last_modified>Sat, 30 Nov 2013 05:52:08 GMT</planet:http_last_modified><planet:bozo>true</planet:bozo><planet:activity_threshold>0</planet:activity_threshold><planet:facewidth>65</planet:facewidth><planet:faceheight>85</planet:faceheight><planet:http_status>200</planet:http_status></source></entry>

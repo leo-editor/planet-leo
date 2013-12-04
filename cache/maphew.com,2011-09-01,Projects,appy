@@ -1,0 +1,73 @@
+<?xml version="1.0" ?><entry xml:lang="En" xmlns="http://www.w3.org/2005/Atom" xmlns:planet="http://planet.intertwingly.net/"><id>tag:www.maphew.com,2011-09-01:/Projects/appy</id><link href="http://www.maphew.com/Projects/appy/" rel="alternate" type="text/html"/><title xml:lang="En">appy</title><content type="xhtml" xml:lang="En"><div xmlns="http://www.w3.org/1999/xhtml"><p>I’ve been sporadically working on a little command line installer for
+OSGeo4W, called
+<a href="http://code.google.com/p/maphew/wiki/AptGetLike" title="http://code.google.com/p/maphew/wiki/AptGetLike">apt</a>.
+It is based on
+<a href="http://lilypond.org/~janneke/software/cyg-apt" title="http://lilypond.org/%7Ejanneke/software/cyg-apt">cyg-apt</a>,
+a command line apt-get-like installer for cygwin byJan Nieuwenhuizen. I
+currently have two forks. One for o4w alone, which I’ve renamed apt, and
+the second for cygwin alone, which I’ve left as cyg-apt. Forking is not
+a good idea when there is so much in common, so I’m going to try and
+bring them together. One app, two installers. Neither name fits this new
+job so I’m going to use appy for the time being. It will have to change
+eventually as there’s another, much bigger, python project with the
+<a href="http://appyframework.org/" title="http://appyframework.org/">appy name</a>, but
+I don’t want to spend hours agonizing over a name. Again.
+<img alt=":)" src="http://www.maphew.com\www.uttara.ca\blog\wp-includes\images\smilies\icon_smile.gif"/></p>
+<p>The appy series of posts will chronicle my misadventures as I try and
+teach myself programming by making this small tool a little bit more
+useful. To me anyway!</p>
+<p><a href="http://code.google.com/p/maphew/source/browse/trunk/other/cyg-apt.py" title="http://code.google.com/p/maphew/source/browse/trunk/other/cyg-apt.py">Matt’s
+cyg-apt</a>:
+my only claim to (in)famy here is converting system calls to md5sum,
+tar, etc. to pure python. So now the only pre-requisite is python. All
+the real work and intelligence in this program is a result of Jan’s
+work.</p>
+<p>I created a <a href="http://code.google.com/p/maphew/downloads/list" title="http://code.google.com/p/maphew/downloads/list">standalone
+exe</a>
+of the o4w version which can be used to <a href="http://code.google.com/p/maphew/wiki/OsgeoFromScratch" title="http://code.google.com/p/maphew/wiki/OsgeoFromScratch">install o4w from
+scratch</a>,
+but at 2.5mb it’s a little big for what it actually does.</p>
+<hr/>
+<p>Things are going really well. I'm nothing short of astounded with what
+me, a nonprogrammer, has been able to accomplish in a few dozen hours
+(albeit spread over many evenings over a year). Why just last night in
+cyg-apt I added a function to <a href="http://code.google.com/p/maphew/source/detail?spec=svn94&amp;r=94" title="http://code.google.com/p/maphew/source/detail?spec=svn94&amp;r=94">use the last used
+mirror</a>
+instead of hardcoding it. Concieved, thought about, and implemented all
+in one session. Now <strong>that</strong> is cool!</p>
+<p><em>(many moons later)</em>     I love python, it makes me feel like I know
+what I'm doing. ;-)   Around two hours ago I discovered apt was broken
+because the server <a href="http://trac.osgeo.org/osgeo4w/ticket/173" title="http://trac.osgeo.org/osgeo4w/ticket/173">changed it's ini
+format</a>.
+One hour later I had it fixed, tested and committed with a routine I've
+never used before.</p>
+<h5>2011-09-01 a major milestone reached, <a href="http://trac.osgeo.org/osgeo4w/wiki/pkg-apt" title="http://trac.osgeo.org/osgeo4w/wiki/pkg-apt">Apt</a> eats Apt!</h5>
+<p>Last night I completed building <strong>a package of apt.exe can upgrade
+itself</strong>. This means, I think, that now apt should be able to replace
+any and all packages in Osgeo4W in one go including python. There is
+much left to do, it's only been tested on two computers so far, and it
+consumes way more diskspace and bandwidth than I think it should, but it
+works!</p>
+<p>To try it out, point your existing apt or o4w setup program (see
+<em>Testing Repository</em>at end of <a href="http://trac.osgeo.org/osgeo4w/wiki/RequiresPython" title="http://trac.osgeo.org/osgeo4w/wiki/RequiresPython">this
+page</a>)
+at
+<a href="http://download.osgeo.org/osgeo4w/testing/" title="http://download.osgeo.org/osgeo4w/testing/">http://download.osgeo.org/osgeo4w/testing/</a>
+and upgrade away.</p>
+<div class="highlight"><pre><span class="n">apt</span> <span class="o">--</span><span class="n">mirror</span> <span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">download</span><span class="p">.</span><span class="n">osgeo</span><span class="p">.</span><span class="n">org</span><span class="o">/</span><span class="n">osgeo4w</span><span class="o">/</span><span class="n">testing</span><span class="o">/</span> <span class="n">update</span>
+<span class="n">apt</span> <span class="n">new</span>
+<span class="n">apt</span> <span class="n">upgrade</span>
+</pre></div>
+
+
+<p>After this running apt with no parameters should yield the usual help
+page with a version number at the top that resembles:</p>
+<div class="highlight"><pre><span class="o">-</span><span class="p">={</span> <span class="n">Id</span><span class="p">:</span> <span class="n">apt</span><span class="p">.</span><span class="n">py</span> 1179 2011<span class="o">-</span>09<span class="o">-</span>01 12<span class="p">:</span>42<span class="p">:</span>24<span class="n">Z</span> <span class="n">maphew</span> <span class="p">}=</span><span class="o">-</span>
+
+<span class="n">apt</span> <span class="p">[</span><span class="n">OPTION</span><span class="p">]...</span> <span class="n">COMMAND</span> <span class="p">[</span><span class="n">PACKAGE</span><span class="p">]...</span>
+</pre></div>
+
+
+<p>If the first line is just [option] etc. the new apt.exe hasn't been
+activated. Running %osgeo4w_root%\bin\apt.bat should fix that. If not
+please let me know.</p></div></content><updated planet:format="September 01, 2011 08:00 AM">2011-09-01T08:00:00Z</updated><category term="projects"/><author><name>matt wilkie</name><email>maphew+website@gmail.com</email><uri>http://www.maphew.com/</uri></author><source><id>tag:www.maphew.com,2011-06-11:/atom/</id><icon>http://www.maphew.com/favicon.ico</icon><logo>http://www.maphew.com/feed-logo.png</logo><author><name>matt wilkie</name><email>maphew+website@gmail.com</email><uri>http://www.maphew.com/</uri></author><link href="http://www.maphew.com/" rel="alternate" type="text/html"/><link href="http://www.maphew.com/atom/" rel="self" type="application/atom+xml"/><title xml:lang="En">a hewer of maps</title><updated planet:format="May 17, 2013 08:54 AM">2013-05-17T08:54:00Z</updated><planet:format>atom10</planet:format><planet:http_etag>&quot;2699bcc-1a063-4ec5e8c135200&quot;</planet:http_etag><planet:http_last_modified>Sat, 30 Nov 2013 05:52:08 GMT</planet:http_last_modified><planet:bozo>true</planet:bozo><planet:activity_threshold>0</planet:activity_threshold><planet:facewidth>65</planet:facewidth><planet:faceheight>85</planet:faceheight><planet:http_status>200</planet:http_status></source></entry>
