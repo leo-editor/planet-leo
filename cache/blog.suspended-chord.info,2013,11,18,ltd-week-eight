@@ -1,0 +1,49 @@
+<?xml version="1.0" ?><entry xmlns="http://www.w3.org/2005/Atom" xmlns:planet="http://planet.intertwingly.net/"><id>http://blog.suspended-chord.info/2013/11/18/ltd-week-eight/</id><link href="http://blog.suspended-chord.info/2013/11/18/ltd-week-eight/" rel="alternate" type="text/html"/><title>LTD Week Eight</title><summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Another decently busy week:</p>
+
+<ul>
+<li>Work
+
+<ul>
+<li>Created some unix users</li>
+<li>Worked with some vendors on some file transfer jobs</li>
+<li>Worked on getting a PHP module installed for our website</li>
+</ul>
+</li>
+</ul></div></summary><content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Another decently busy week:</p>
+
+<ul>
+<li>Work
+
+<ul>
+<li>Created some unix users</li>
+<li>Worked with some vendors on some file transfer jobs</li>
+<li>Worked on getting a PHP module installed for our website</li>
+<li>Worked a bit on our new t5-2 hardward w/r/t disk multipathing</li>
+</ul>
+</li>
+<li>Responsibility
+
+<ul>
+<li>Did my Tabata every day (yeah! back on track!)</li>
+<li>Got my driver-side mirror fixed (it had a crack — ice damage)</li>
+</ul>
+</li>
+<li>Leisure
+
+<ul>
+<li>Read MicroFudge</li>
+<li>Read ERP (‘Elegant Role Playing’)</li>
+<li>Fixed a ‘huge font’ issue in Leo</li>
+<li>Patched Leo to make @rclick nodes create commands like @command and @button nodes</li>
+<li>Refactored my @nodewatch definitions for LTD into a single script (keep it DRY)</li>
+<li>Scripted an @rclick to create weekly reports for LTD progress</li>
+<li>Worked on Kahl a bit</li>
+<li>Read Crawl! #3</li>
+<li>Removed ceekrt from my site… it’s about time</li>
+<li>Updated orison’s software</li>
+</ul>
+</li>
+</ul>
+
+
+<p>Later on today, I intend to do an updated version of my original LTD article, explaining how it works now, and sharing my scripts at the moment.</p></div></content><updated planet:format="November 18, 2013 12:00 AM">2013-11-18T00:00:00Z</updated><published planet:format="November 18, 2013 12:00 AM">2013-11-18T00:00:00Z</published><author><name>Jake Peck</name></author><source><id>http://blog.suspended-chord.info</id><author><name>Jake Peck</name></author><link href="http://blog.suspended-chord.info/leo.xml" rel="self" type="application/atom+xml"/><title>a-&gt;ab</title><updated planet:format="December 02, 2013 12:00 AM">2013-12-02T00:00:00Z</updated><planet:faceheight>85</planet:faceheight><planet:activity_threshold>0</planet:activity_threshold><planet:format>atom10</planet:format><planet:facewidth>65</planet:facewidth><planet:http_etag>&quot;f3d7e23407b2fe37425b0a16847abf6211933e00&quot;</planet:http_etag><planet:bozo>false</planet:bozo><planet:name>a→ab (Jacob Peck)</planet:name><planet:css-id>a-ab-jacob-peck</planet:css-id><planet:http_status>200</planet:http_status></source></entry>

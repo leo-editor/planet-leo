@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:planet="http://planet.intertwingly.net/" xmlns:indexing="urn:atom-extension:indexing" indexing:index="no"><access:restriction xmlns:access="http://www.bloglines.com/about/specs/fac-1.0" relationship="deny"/>
   <title>Planet Leo</title>
-  <updated>2013-12-04T09:04:47Z</updated>
+  <updated>2013-12-04T21:49:51Z</updated>
   <generator uri="http://intertwingly.net/code/venus/">Venus</generator>
   <author>
     <name>Leo Editor mailing list</name>
@@ -10,6 +10,73 @@
   <id>http://leoeditor.com/atom.xml</id>
   <link href="http://leoeditor.com/atom.xml" rel="self" type="application/atom+xml"/>
   <link href="http://leoeditor.com" rel="alternate"/>
+
+  <entry>
+    <id>http://blog.suspended-chord.info/2013/12/02/ltd-week-ten/</id>
+    <link href="http://blog.suspended-chord.info/2013/12/02/ltd-week-ten/" rel="alternate" type="text/html"/>
+    <title>LTD Week Ten</title>
+    <summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Less than average productivity this week, but that’s to be expected with the US Holidays.  Here’s a recap:</p>
+
+<ul>
+<li>Work
+
+<ul>
+<li>Performed OS upgrades and patches on some blackboard servers</li>
+</ul>
+</li>
+</ul></div>
+    </summary>
+    <content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Less than average productivity this week, but that’s to be expected with the US Holidays.  Here’s a recap:</p>
+
+<ul>
+<li>Work
+
+<ul>
+<li>Performed OS upgrades and patches on some blackboard servers</li>
+<li>Installed a PHP module on our webserver</li>
+<li>Did a few DNS entries</li>
+<li>Installed an emergency patch on blackboard right before Thanksgiving…</li>
+</ul>
+</li>
+<li>Responsibility
+
+<ul>
+<li>Looked at a new apartment (!)</li>
+<li>Maintained my Tabata routine half-heartedly (meh… I’m getting bad about this.)</li>
+</ul>
+</li>
+<li>Leisure
+
+<ul>
+<li>Read The Manor #5</li>
+<li>Read Crawl! #6</li>
+<li>Read Crawl! #7</li>
+<li>Fixed a few small Leo bugs (one related to quicksearch.py’s theming, and one related to nodewatch.py’s focusing behavior)</li>
+<li>Updated orison’s software</li>
+<li>Played a crapton of Smite</li>
+<li>Spent too much money online</li>
+</ul>
+</li>
+</ul>
+
+
+<p>Whoo!  Back to the grind.</p></div>
+    </content>
+    <updated>2013-12-02T00:00:00Z</updated>
+    <published>2013-12-02T00:00:00Z</published>
+    <author>
+      <name>Jake Peck</name>
+    </author>
+    <source>
+      <id>http://blog.suspended-chord.info</id>
+      <author>
+        <name>Jake Peck</name>
+      </author>
+      <link href="http://blog.suspended-chord.info/leo.xml" rel="self" type="application/atom+xml"/>
+      <title>a-&gt;ab</title>
+      <updated>2013-12-02T00:00:00Z</updated>
+    </source>
+  </entry>
 
   <entry>
     <id>tag:leo-editor.github.io,2013-11-28:register_leo.html</id>
@@ -74,6 +141,145 @@ http://stackoverflow.com/questions/771689/how-can-i-set-an-icon-for-my-own-file-
       <link href="http://leo-editor.github.io/feeds%5Call.atom.xml" rel="self" type="application/atom+xml"/>
       <title>Leo Blog</title>
       <updated>2013-11-27T23:00:00Z</updated>
+    </source>
+  </entry>
+
+  <entry>
+    <id>http://blog.suspended-chord.info/2013/11/25/ltd-week-nine/</id>
+    <link href="http://blog.suspended-chord.info/2013/11/25/ltd-week-nine/" rel="alternate" type="text/html"/>
+    <title>LTD Week Nine</title>
+    <summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Very busy week, work-wise.  Not much outside of work though…</p>
+
+<ul>
+<li>Work
+
+<ul>
+<li>Got our new t5-2 hardware talking to the storage array</li>
+<li>Scripted a few ftp jobs</li>
+</ul>
+</li>
+</ul></div>
+    </summary>
+    <content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Very busy week, work-wise.  Not much outside of work though…</p>
+
+<ul>
+<li>Work
+
+<ul>
+<li>Got our new t5-2 hardware talking to the storage array</li>
+<li>Scripted a few ftp jobs</li>
+<li>Added a server to our monitoring system</li>
+<li>Set up an install server for Solaris 10 01/13 SPARC</li>
+<li>Added some new LUNs to several machines</li>
+<li>Prepped for OS upgrades…</li>
+</ul>
+</li>
+<li>Responsibility
+
+<ul>
+<li>Maintained my tabata routine</li>
+</ul>
+</li>
+<li>Leisure
+
+<ul>
+<li>Fixed a minor DDOS attack (from Google’s address space?!?) on my servers… wtf?</li>
+<li>Read Crawl! #4</li>
+<li>Read Crawl! #5</li>
+<li>Rewrote the Mint Fudge sketchy-sketch</li>
+<li>Updated orison’s software</li>
+</ul>
+</li>
+</ul>
+
+
+<p>Doesn’t look like much, but it was a lot of time consuming BS.  Also lots of planning.</p></div>
+    </content>
+    <updated>2013-11-25T00:00:00Z</updated>
+    <published>2013-11-25T00:00:00Z</published>
+    <author>
+      <name>Jake Peck</name>
+    </author>
+    <source>
+      <id>http://blog.suspended-chord.info</id>
+      <author>
+        <name>Jake Peck</name>
+      </author>
+      <link href="http://blog.suspended-chord.info/leo.xml" rel="self" type="application/atom+xml"/>
+      <title>a-&gt;ab</title>
+      <updated>2013-12-02T00:00:00Z</updated>
+    </source>
+  </entry>
+
+  <entry>
+    <id>http://blog.suspended-chord.info/2013/11/18/ltd-week-eight/</id>
+    <link href="http://blog.suspended-chord.info/2013/11/18/ltd-week-eight/" rel="alternate" type="text/html"/>
+    <title>LTD Week Eight</title>
+    <summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Another decently busy week:</p>
+
+<ul>
+<li>Work
+
+<ul>
+<li>Created some unix users</li>
+<li>Worked with some vendors on some file transfer jobs</li>
+<li>Worked on getting a PHP module installed for our website</li>
+</ul>
+</li>
+</ul></div>
+    </summary>
+    <content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Another decently busy week:</p>
+
+<ul>
+<li>Work
+
+<ul>
+<li>Created some unix users</li>
+<li>Worked with some vendors on some file transfer jobs</li>
+<li>Worked on getting a PHP module installed for our website</li>
+<li>Worked a bit on our new t5-2 hardward w/r/t disk multipathing</li>
+</ul>
+</li>
+<li>Responsibility
+
+<ul>
+<li>Did my Tabata every day (yeah! back on track!)</li>
+<li>Got my driver-side mirror fixed (it had a crack — ice damage)</li>
+</ul>
+</li>
+<li>Leisure
+
+<ul>
+<li>Read MicroFudge</li>
+<li>Read ERP (‘Elegant Role Playing’)</li>
+<li>Fixed a ‘huge font’ issue in Leo</li>
+<li>Patched Leo to make @rclick nodes create commands like @command and @button nodes</li>
+<li>Refactored my @nodewatch definitions for LTD into a single script (keep it DRY)</li>
+<li>Scripted an @rclick to create weekly reports for LTD progress</li>
+<li>Worked on Kahl a bit</li>
+<li>Read Crawl! #3</li>
+<li>Removed ceekrt from my site… it’s about time</li>
+<li>Updated orison’s software</li>
+</ul>
+</li>
+</ul>
+
+
+<p>Later on today, I intend to do an updated version of my original LTD article, explaining how it works now, and sharing my scripts at the moment.</p></div>
+    </content>
+    <updated>2013-11-18T00:00:00Z</updated>
+    <published>2013-11-18T00:00:00Z</published>
+    <author>
+      <name>Jake Peck</name>
+    </author>
+    <source>
+      <id>http://blog.suspended-chord.info</id>
+      <author>
+        <name>Jake Peck</name>
+      </author>
+      <link href="http://blog.suspended-chord.info/leo.xml" rel="self" type="application/atom+xml"/>
+      <title>a-&gt;ab</title>
+      <updated>2013-12-02T00:00:00Z</updated>
     </source>
   </entry>
 

@@ -1,0 +1,53 @@
+<?xml version="1.0" ?><entry xmlns="http://www.w3.org/2005/Atom" xmlns:planet="http://planet.intertwingly.net/"><id>http://blog.suspended-chord.info/2013/11/12/ltd-week-seven/</id><link href="http://blog.suspended-chord.info/2013/11/12/ltd-week-seven/" rel="alternate" type="text/html"/><title>LTD Week Seven</title><summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Busy week.  Here’s a recap:</p>
+
+<ul>
+<li>Work
+
+<ul>
+<li>Made sure the DST time change didn’t affect any machines/backup jobs</li>
+<li>Created some DNS entries</li>
+<li>Did some benchmarking on our new T5-2 hardware</li>
+</ul>
+</li>
+</ul></div></summary><content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Busy week.  Here’s a recap:</p>
+
+<ul>
+<li>Work
+
+<ul>
+<li>Made sure the DST time change didn’t affect any machines/backup jobs</li>
+<li>Created some DNS entries</li>
+<li>Did some benchmarking on our new T5-2 hardware</li>
+<li>Dealt with some disk issues</li>
+<li>Fixed a few FTP jobs</li>
+<li>Got our T5-2 on the SAN</li>
+<li>Stayed up until 12:13 am patching blackboard… (<em>grumble grumble</em>)</li>
+<li>Integrated our T5-2 into our backup and monitoring systems</li>
+<li>Tweaked thresholds on a few monitoring jobs</li>
+</ul>
+</li>
+<li>Responsibility
+
+<ul>
+<li>Dropped the ball big-time on my Tabata routine…  I <em>will</em> fix this!</li>
+<li>Set up a new laptop for my girlfriend, after her old one gave up the ghost</li>
+</ul>
+</li>
+<li>Leisure
+
+<ul>
+<li>Fixed a few bugs in nodewatch.py</li>
+<li>Documented nodewatch.py</li>
+<li>Fixed a small bug in stickynotes.py</li>
+<li>Worked a bit on Mur worldbuilding</li>
+<li>Wrote a Kahl adventure</li>
+<li>Fixed a typo on my website</li>
+<li>Read AFS Magazine #3</li>
+<li>Read Crawl! Magazine #1</li>
+<li>Read Crawl! Magazine #2</li>
+<li>Designed ‘Colonia’, an abstract strategy game that I need to playtest</li>
+<li>Made a set of randomizers for VPG’s For The Crown</li>
+<li>Updated orison’s software</li>
+</ul>
+</li>
+</ul></div></content><updated planet:format="November 12, 2013 12:00 AM">2013-11-12T00:00:00Z</updated><published planet:format="November 12, 2013 12:00 AM">2013-11-12T00:00:00Z</published><author><name>Jake Peck</name></author><source><id>http://blog.suspended-chord.info</id><author><name>Jake Peck</name></author><link href="http://blog.suspended-chord.info/leo.xml" rel="self" type="application/atom+xml"/><title>a-&gt;ab</title><updated planet:format="December 02, 2013 12:00 AM">2013-12-02T00:00:00Z</updated><planet:faceheight>85</planet:faceheight><planet:activity_threshold>0</planet:activity_threshold><planet:format>atom10</planet:format><planet:facewidth>65</planet:facewidth><planet:http_etag>&quot;f3d7e23407b2fe37425b0a16847abf6211933e00&quot;</planet:http_etag><planet:bozo>false</planet:bozo><planet:name>a→ab (Jacob Peck)</planet:name><planet:css-id>a-ab-jacob-peck</planet:css-id><planet:http_status>200</planet:http_status></source></entry>

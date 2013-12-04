@@ -18,12 +18,25 @@
     </foaf:member>
     <foaf:member>
       <foaf:Agent>
-        <foaf:name/>
+        <foaf:name>a hewer of maps (Matt Wilkie)</foaf:name>
         <foaf:weblog>
           <foaf:Document rdf:about="http://www.maphew.com/">
             <dc:title>a hewer of maps</dc:title>
             <rdfs:seeAlso>
               <rss:channel rdf:about="http://www.maphew.com/atom/"/>
+            </rdfs:seeAlso>
+          </foaf:Document>
+        </foaf:weblog>
+      </foaf:Agent>
+    </foaf:member>
+    <foaf:member>
+      <foaf:Agent>
+        <foaf:name>a→ab (Jacob Peck)</foaf:name>
+        <foaf:weblog>
+          <foaf:Document rdf:about="">
+            <dc:title>a-&gt;ab</dc:title>
+            <rdfs:seeAlso>
+              <rss:channel rdf:about="http://blog.suspended-chord.info/leo.xml"/>
             </rdfs:seeAlso>
           </foaf:Document>
         </foaf:weblog>
