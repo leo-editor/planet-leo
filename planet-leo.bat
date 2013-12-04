@@ -1,2 +1,2 @@
 python ..\venus\planet.py planet-leo.ini
-start output\index.html
+start ..\planet-leo-pages\index.html
