@@ -1,18 +1,20 @@
-<?xml version="1.0" ?><entry xmlns="http://www.w3.org/2005/Atom" xmlns:planet="http://planet.intertwingly.net/"><id>tag:leo-editor.github.io,2013-04-20:screen_capture.html</id><link href="http://leo-editor.github.io/screen_capture.html" rel="alternate" type="text/html"/><title>screen_capture</title><summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Today I pushed a screen_capture plugin which adds two new
-commands to Leo, <tt class="docutils literal">screen_capture_now</tt> and <tt class="docutils literal">screen_capture_5sec</tt>.
-A PNG image of the main Leo window, without window manager decorations,
-is saved in <tt class="docutils literal"><span class="pre">$HOME/.leo/screen_captures/YYYY-MM-DDTHH:MM:SS.png</span></tt>
-Here's an example:</p>
-<img alt="" src="http://leo-editor.github.io/static/images/plugins/screen_capture/screen_capture0.png"/>
-<p><tt class="docutils literal">screen_capture_now</tt> captures an image immediately,
-<tt class="docutils literal">screen_capture_5sec</tt> waits five seconds, so you can position the
-pointer, open menus etc.  The only feedback is in the console, as
-messages in the log would be distracting in the captured image.</p>
-<p>Oddly enough, all through development (this project started at the 2013
-Leo Sprint), the mouse pointer was not captured. This is not at all
-unusual for screen capture software. The plugin includes code to draw a
-pointer (from <tt class="docutils literal"><span class="pre">.../Icons/recorder/pointer.png</span></tt>) on the grabbed image.
-But at time of writing the pointer is being captured, and that code is
-disabled. My guess is the pointer won't be captured in all environments
-and a <tt class="docutils literal">@setting</tt> will be needed to enable pointer drawing by the
-plugin.</p></div></summary><updated planet:format="April 19, 2013 10:00 PM">2013-04-19T22:00:00Z</updated><category term="plugins"/><author><name>Terry Brown</name></author><source><id>http://leo-editor.github.io/</id><link href="http://leo-editor.github.io/" rel="alternate" type="text/html"/><link href="http://leo-editor.github.io/feeds%5Call.atom.xml" rel="self" type="application/atom+xml"/><title>Leo Blog</title><updated planet:format="November 27, 2013 11:00 PM">2013-11-27T23:00:00Z</updated><planet:activity_threshold>0</planet:activity_threshold><planet:faceheight>79</planet:faceheight><planet:format>atom10</planet:format><planet:facewidth>65</planet:facewidth><planet:http_last_modified>Thu, 28 Nov 2013 23:42:47 GMT</planet:http_last_modified><planet:face>leo_65x79.png</planet:face><planet:name>Official Leo Editor Blog</planet:name><planet:css-id>official-leo-editor-blog</planet:css-id><planet:bozo>false</planet:bozo><planet:http_status>200</planet:http_status></source></entry>
+<?xml version="1.0"?>
+<entry xmlns="http://www.w3.org/2005/Atom" xmlns:planet="http://planet.intertwingly.net/"><id>tag:leo-editor.github.io,2013-04-20:screen_capture.html</id><link href="http://leo-editor.github.io/screen_capture.html" rel="alternate" type="text/html"/><title>screen_capture</title><summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Today I pushed a screen_capture plugin which adds two new
+commands to Leo, <tt class="docutils literal">screen_capture_now</tt> and <tt class="docutils literal">screen_capture_5sec</tt>.
+A PNG image of the main Leo window, without window manager decorations,
+is saved in <tt class="docutils literal"><span class="pre">$HOME/.leo/screen_captures/YYYY-MM-DDTHH:MM:SS.png</span></tt>
+Here's an example:</p>
+<img alt="" src="http://leo-editor.github.io/static/images/plugins/screen_capture/screen_capture0.png"/>
+<p><tt class="docutils literal">screen_capture_now</tt> captures an image immediately,
+<tt class="docutils literal">screen_capture_5sec</tt> waits five seconds, so you can position the
+pointer, open menus etc.  The only feedback is in the console, as
+messages in the log would be distracting in the captured image.</p>
+<p>Oddly enough, all through development (this project started at the 2013
+Leo Sprint), the mouse pointer was not captured. This is not at all
+unusual for screen capture software. The plugin includes code to draw a
+pointer (from <tt class="docutils literal"><span class="pre">.../Icons/recorder/pointer.png</span></tt>) on the grabbed image.
+But at time of writing the pointer is being captured, and that code is
+disabled. My guess is the pointer won't be captured in all environments
+and a <tt class="docutils literal">@setting</tt> will be needed to enable pointer drawing by the
+plugin.</p></div></summary><updated planet:format="April 19, 2013 10:00 PM">2013-04-19T22:00:00Z</updated><category term="plugins"/><author><name>Terry Brown</name></author><source><id>http://leo-editor.github.io/</id><link href="http://leo-editor.github.io/" rel="alternate" type="text/html"/><link href="http://leo-editor.github.io/feeds%5Call.atom.xml" rel="self" type="application/atom+xml"/><title>Leo Blog</title><updated planet:format="November 27, 2013 11:00 PM">2013-11-27T23:00:00Z</updated><planet:activity_threshold>0</planet:activity_threshold><planet:faceheight>79</planet:faceheight><planet:format>atom10</planet:format><planet:facewidth>65</planet:facewidth><planet:http_last_modified>Thu, 28 Nov 2013 23:42:47 GMT</planet:http_last_modified><planet:face>leo_65x79.png</planet:face><planet:name>Official Leo Editor Blog</planet:name><planet:css-id>official-leo-editor-blog</planet:css-id><planet:bozo>false</planet:bozo><planet:http_status>200</planet:http_status></source></entry>
+

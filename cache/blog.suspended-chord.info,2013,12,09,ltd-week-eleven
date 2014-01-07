@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<entry xmlns="http://www.w3.org/2005/Atom" xmlns:planet="http://planet.intertwingly.net/"><id>http://blog.suspended-chord.info/2013/12/09/ltd-week-eleven/</id><link href="http://blog.suspended-chord.info/2013/12/09/ltd-week-eleven/" rel="alternate" type="text/html"/><title>LTD Week Eleven</title><summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Busyish week.  Here we go:</p>
+
+<ul>
+<li>Work
+
+<ul>
+<li>Migrated 4 out of 6 servers to the new hardware (whoo!)</li>
+<li>Removed a few stale LUN paths on old machines</li>
+</ul>
+</li>
+</ul></div></summary><content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Busyish week.  Here we go:</p>
+
+<ul>
+<li>Work
+
+<ul>
+<li>Migrated 4 out of 6 servers to the new hardware (whoo!)</li>
+<li>Removed a few stale LUN paths on old machines</li>
+<li>Figured out a confusing issue where a script was writing to &#x201C;/dev/null 2&gt;&amp;1&#x201D; as a file, rather than /dev/null</li>
+<li>Accidentally rebooted a machine that needed a reboot since April (oops!)</li>
+<li>Sent out a file that an FTP job missed</li>
+<li>Began prepping the last 2 servers for migration to the new hardware</li>
+</ul>
+</li>
+<li>Responsibilities
+
+<ul>
+<li>Fixed a small typo on the blog</li>
+<li>Examined som insurance info</li>
+<li>Went to see an apartment</li>
+<li>Continued my Tabata routine</li>
+</ul>
+</li>
+<li>Leisure
+
+<ul>
+<li>Read Wizards Mutants Laser Pistols #1</li>
+<li>Updated orison&#x2019;s software</li>
+<li>Wrote a Schelling model example (on this blog)</li>
+<li>Did a lot of thinking about Mint Fudge and related projects</li>
+</ul>
+</li>
+</ul></div></content><updated planet:format="December 09, 2013 12:00 AM">2013-12-09T00:00:00Z</updated><published planet:format="December 09, 2013 12:00 AM">2013-12-09T00:00:00Z</published><author><name>Jake Peck</name></author><source><id>http://blog.suspended-chord.info</id><author><name>Jake Peck</name></author><link href="http://blog.suspended-chord.info/leo.xml" rel="self" type="application/atom+xml"/><title>a-&gt;ab</title><updated planet:format="January 06, 2014 12:00 AM">2014-01-06T00:00:00Z</updated><planet:faceheight>85</planet:faceheight><planet:activity_threshold>0</planet:activity_threshold><planet:format>atom10</planet:format><planet:facewidth>65</planet:facewidth><planet:http_etag>"401a6cd50bfb38a6747f6c6d3379d68f60e319d3"</planet:http_etag><planet:bozo>false</planet:bozo><planet:name>a&#x2192;ab (Jacob Peck)</planet:name><planet:css-id>a-ab-jacob-peck</planet:css-id><planet:http_status>200</planet:http_status></source></entry>
+

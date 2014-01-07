@@ -1,31 +1,33 @@
-<?xml version="1.0" ?><entry xmlns="http://www.w3.org/2005/Atom" xmlns:planet="http://planet.intertwingly.net/"><id>http://blog.suspended-chord.info/2013/10/21/ltd-week-four/</id><link href="http://blog.suspended-chord.info/2013/10/21/ltd-week-four/" rel="alternate" type="text/html"/><title>LTD Week Four</title><summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Here’s what I accomplished in my fourth week of using LTD:</p>
-
-<ul>
-<li>Work: <em>several</em> disk issues resolved</li>
-<li>Work: updated packages on our only Linux server</li>
-</ul></div></summary><content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Here’s what I accomplished in my fourth week of using LTD:</p>
-
-<ul>
-<li>Work: <em>several</em> disk issues resolved</li>
-<li>Work: updated packages on our only Linux server</li>
-<li>Work: some DNS work</li>
-<li>Work: finished off an old issue involving cramped backup space</li>
-<li>Work: implemented a new backup script for one of our databases</li>
-<li>Work: a few manual FTP jobs</li>
-<li>Work: created a new user account on one of our servers</li>
-<li>Work: worked on some blackboard issues</li>
-<li>Work: attempted to reorganize the innards of a server due to overheating — failed due to short STAT cables</li>
-<li>Work: filed request for networking stuff for new blackboard server install</li>
-<li>Responsibility: continued Tabata routine</li>
-<li>Leisure: wrote blog article on decktet game idea revised</li>
-<li>Leisure: added some games to Steam</li>
-<li>Leisure: updated orison’s software</li>
-<li>Leisure: performed the great gist purge of 2013 — merged related gists and deleted old ones — went from 120 to 23 or so</li>
-<li>Leisure: purchased For The Crown and expansions with VPG’s 15% discount…</li>
-<li>Leisure: installed Market Helper on my tablet</li>
-<li>Leisure: Read issues 1-3 of The Manor by Tim Shorts (GM Games)</li>
-<li>Leisure: Read “The Devil in Iron” by R.E. Howard</li>
-</ul>
-
-
-<p>That’s a lot.  Man, I was busy this week.</p></div></content><updated planet:format="October 21, 2013 12:00 AM">2013-10-21T00:00:00Z</updated><published planet:format="October 21, 2013 12:00 AM">2013-10-21T00:00:00Z</published><author><name>Jake Peck</name></author><source><id>http://blog.suspended-chord.info</id><author><name>Jake Peck</name></author><link href="http://blog.suspended-chord.info/leo.xml" rel="self" type="application/atom+xml"/><title>a-&gt;ab</title><updated planet:format="December 02, 2013 12:00 AM">2013-12-02T00:00:00Z</updated><planet:faceheight>85</planet:faceheight><planet:activity_threshold>0</planet:activity_threshold><planet:format>atom10</planet:format><planet:facewidth>65</planet:facewidth><planet:http_etag>&quot;f3d7e23407b2fe37425b0a16847abf6211933e00&quot;</planet:http_etag><planet:bozo>false</planet:bozo><planet:name>a→ab (Jacob Peck)</planet:name><planet:css-id>a-ab-jacob-peck</planet:css-id><planet:http_status>200</planet:http_status></source></entry>
+<?xml version="1.0"?>
+<entry xmlns="http://www.w3.org/2005/Atom" xmlns:planet="http://planet.intertwingly.net/"><id>http://blog.suspended-chord.info/2013/10/21/ltd-week-four/</id><link href="http://blog.suspended-chord.info/2013/10/21/ltd-week-four/" rel="alternate" type="text/html"/><title>LTD Week Four</title><summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Here&#x2019;s what I accomplished in my fourth week of using LTD:</p>
+
+<ul>
+<li>Work: <em>several</em> disk issues resolved</li>
+<li>Work: updated packages on our only Linux server</li>
+</ul></div></summary><content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Here&#x2019;s what I accomplished in my fourth week of using LTD:</p>
+
+<ul>
+<li>Work: <em>several</em> disk issues resolved</li>
+<li>Work: updated packages on our only Linux server</li>
+<li>Work: some DNS work</li>
+<li>Work: finished off an old issue involving cramped backup space</li>
+<li>Work: implemented a new backup script for one of our databases</li>
+<li>Work: a few manual FTP jobs</li>
+<li>Work: created a new user account on one of our servers</li>
+<li>Work: worked on some blackboard issues</li>
+<li>Work: attempted to reorganize the innards of a server due to overheating &#x2014; failed due to short STAT cables</li>
+<li>Work: filed request for networking stuff for new blackboard server install</li>
+<li>Responsibility: continued Tabata routine</li>
+<li>Leisure: wrote blog article on decktet game idea revised</li>
+<li>Leisure: added some games to Steam</li>
+<li>Leisure: updated orison&#x2019;s software</li>
+<li>Leisure: performed the great gist purge of 2013 &#x2014; merged related gists and deleted old ones &#x2014; went from 120 to 23 or so</li>
+<li>Leisure: purchased For The Crown and expansions with VPG&#x2019;s 15% discount&#x2026;</li>
+<li>Leisure: installed Market Helper on my tablet</li>
+<li>Leisure: Read issues 1-3 of The Manor by Tim Shorts (GM Games)</li>
+<li>Leisure: Read &#x201C;The Devil in Iron&#x201D; by R.E. Howard</li>
+</ul>
+
+
+<p>That&#x2019;s a lot.  Man, I was busy this week.</p></div></content><updated planet:format="October 21, 2013 12:00 AM">2013-10-21T00:00:00Z</updated><published planet:format="October 21, 2013 12:00 AM">2013-10-21T00:00:00Z</published><author><name>Jake Peck</name></author><source><id>http://blog.suspended-chord.info</id><author><name>Jake Peck</name></author><link href="http://blog.suspended-chord.info/leo.xml" rel="self" type="application/atom+xml"/><title>a-&gt;ab</title><updated planet:format="January 06, 2014 12:00 AM">2014-01-06T00:00:00Z</updated><planet:faceheight>85</planet:faceheight><planet:activity_threshold>0</planet:activity_threshold><planet:format>atom10</planet:format><planet:facewidth>65</planet:facewidth><planet:http_etag>"401a6cd50bfb38a6747f6c6d3379d68f60e319d3"</planet:http_etag><planet:bozo>false</planet:bozo><planet:name>a&#x2192;ab (Jacob Peck)</planet:name><planet:css-id>a-ab-jacob-peck</planet:css-id><planet:http_status>200</planet:http_status></source></entry>
+

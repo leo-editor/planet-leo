@@ -1,29 +1,31 @@
-<?xml version="1.0" ?><entry xmlns="http://www.w3.org/2005/Atom" xmlns:planet="http://planet.intertwingly.net/"><id>http://blog.suspended-chord.info/2013/03/19/a-few-bits-of-news/</id><link href="http://blog.suspended-chord.info/2013/03/19/a-few-bits-of-news/" rel="alternate" type="text/html"/><title>A few bits of news</title><summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Hello all,</p>
-
-<p>Just thought I’d update you on a few things I’ve been up to since the last time
-I posted (God! I’m bad at this keeping a schedule thing!).  In particular, I’ve</p></div></summary><content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Hello all,</p>
-
-<p>Just thought I’d update you on a few things I’ve been up to since the last time
-I posted (God! I’m bad at this keeping a schedule thing!).  In particular, I’ve
-coded up a few small tools, and launched the rebirth of ceekrt.  So… here’s a
-short list of what I’ve done in the past month and a half plus change:</p>
-
-<ul>
-<li>Submitted <a href="https://github.com/gatesphere/grinder">grinder</a> to the February 2013 <a href="http://www.pltgames.com/competition/2013/2">PLTGames competition</a></li>
-<li>Wrote a small tabletop RPG manager within Leo: <a href="https://github.com/gatesphere/rpg.leo">rpg.leo</a></li>
-<li>Contributed a few small fixes to <a href="https://github.com/gatesphere/easy6502">easy6592</a> and <a href="https://github.com/gatesphere/candelabra">candelabra</a></li>
-<li>Added Markdown support to Leo: <a href="https://code.launchpad.net/~gatesphere/leo-editor/markdown_support">leo-editor/markdown_support</a></li>
-<li>Wrote a minimaxing AI for the game <a href="http://www.boiteajeux.net/jeux/btu/aide_en.php">Button Up!</a> in <a href="http://www.newlisp.org/">newLISP</a>: <a href="https://github.com/gatesphere/fastendown">fastendown</a></li>
-<li>Attempted to learn, and subsequently gave up on COBOL</li>
-<li>Submitted <a href="https://github.com/gatesphere/silica">silica</a> to the March 2013 <a href="http://www.pltgames.com/competition/2013/3">PLTGames competition</a></li>
-<li>Wrote a small implementation of the <a href="http://www.mythic.wordpr.com/page14/page9/page9.html">Mythic GM Emulator</a> in Python: <a href="https://github.com/gatesphere/mythical-pie">mythical-pie</a></li>
-<li>Wrote and relaunched a new version of my old pet project, <a href="http://ceekrt.suspended-chord.info/">ceekrt</a>, in Python with Flask</li>
-<li>Launched the new version of <a href="http://suspended-chord.info/">my portfolio pages</a>!</li>
-</ul>
-
-
-<p>Looks like I’ve been busy.  Huh.</p>
-
-<p>As for this blog, I swear it’s not languishing… but I may be refocusing it once again, into sort of a catch-all for fun stuff.  Programming, science, math, game design, and observations and life musings will be the order of the day.  I still like the name a→ab, so I’ll keep that.</p>
-
-<p>Anyways, thanks for reading!</p></div></content><updated planet:format="March 19, 2013 12:00 AM">2013-03-19T00:00:00Z</updated><published planet:format="March 19, 2013 12:00 AM">2013-03-19T00:00:00Z</published><author><name>Jake Peck</name></author><source><id>http://blog.suspended-chord.info</id><author><name>Jake Peck</name></author><link href="http://blog.suspended-chord.info/leo.xml" rel="self" type="application/atom+xml"/><title>a-&gt;ab</title><updated planet:format="December 02, 2013 12:00 AM">2013-12-02T00:00:00Z</updated><planet:faceheight>85</planet:faceheight><planet:activity_threshold>0</planet:activity_threshold><planet:format>atom10</planet:format><planet:facewidth>65</planet:facewidth><planet:http_etag>&quot;f3d7e23407b2fe37425b0a16847abf6211933e00&quot;</planet:http_etag><planet:bozo>false</planet:bozo><planet:name>a→ab (Jacob Peck)</planet:name><planet:css-id>a-ab-jacob-peck</planet:css-id><planet:http_status>200</planet:http_status></source></entry>
+<?xml version="1.0"?>
+<entry xmlns="http://www.w3.org/2005/Atom" xmlns:planet="http://planet.intertwingly.net/"><id>http://blog.suspended-chord.info/2013/03/19/a-few-bits-of-news/</id><link href="http://blog.suspended-chord.info/2013/03/19/a-few-bits-of-news/" rel="alternate" type="text/html"/><title>A few bits of news</title><summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Hello all,</p>
+
+<p>Just thought I&#x2019;d update you on a few things I&#x2019;ve been up to since the last time
+I posted (God! I&#x2019;m bad at this keeping a schedule thing!).  In particular, I&#x2019;ve</p></div></summary><content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Hello all,</p>
+
+<p>Just thought I&#x2019;d update you on a few things I&#x2019;ve been up to since the last time
+I posted (God! I&#x2019;m bad at this keeping a schedule thing!).  In particular, I&#x2019;ve
+coded up a few small tools, and launched the rebirth of ceekrt.  So&#x2026; here&#x2019;s a
+short list of what I&#x2019;ve done in the past month and a half plus change:</p>
+
+<ul>
+<li>Submitted <a href="https://github.com/gatesphere/grinder">grinder</a> to the February 2013 <a href="http://www.pltgames.com/competition/2013/2">PLTGames competition</a></li>
+<li>Wrote a small tabletop RPG manager within Leo: <a href="https://github.com/gatesphere/rpg.leo">rpg.leo</a></li>
+<li>Contributed a few small fixes to <a href="https://github.com/gatesphere/easy6502">easy6592</a> and <a href="https://github.com/gatesphere/candelabra">candelabra</a></li>
+<li>Added Markdown support to Leo: <a href="https://code.launchpad.net/~gatesphere/leo-editor/markdown_support">leo-editor/markdown_support</a></li>
+<li>Wrote a minimaxing AI for the game <a href="http://www.boiteajeux.net/jeux/btu/aide_en.php">Button Up!</a> in <a href="http://www.newlisp.org/">newLISP</a>: <a href="https://github.com/gatesphere/fastendown">fastendown</a></li>
+<li>Attempted to learn, and subsequently gave up on COBOL</li>
+<li>Submitted <a href="https://github.com/gatesphere/silica">silica</a> to the March 2013 <a href="http://www.pltgames.com/competition/2013/3">PLTGames competition</a></li>
+<li>Wrote a small implementation of the <a href="http://www.mythic.wordpr.com/page14/page9/page9.html">Mythic GM Emulator</a> in Python: <a href="https://github.com/gatesphere/mythical-pie">mythical-pie</a></li>
+<li>Wrote and relaunched a new version of my old pet project, <a href="http://ceekrt.suspended-chord.info/">ceekrt</a>, in Python with Flask</li>
+<li>Launched the new version of <a href="http://suspended-chord.info/">my portfolio pages</a>!</li>
+</ul>
+
+
+<p>Looks like I&#x2019;ve been busy.  Huh.</p>
+
+<p>As for this blog, I swear it&#x2019;s not languishing&#x2026; but I may be refocusing it once again, into sort of a catch-all for fun stuff.  Programming, science, math, game design, and observations and life musings will be the order of the day.  I still like the name a&#x2192;ab, so I&#x2019;ll keep that.</p>
+
+<p>Anyways, thanks for reading!</p></div></content><updated planet:format="March 19, 2013 12:00 AM">2013-03-19T00:00:00Z</updated><published planet:format="March 19, 2013 12:00 AM">2013-03-19T00:00:00Z</published><author><name>Jake Peck</name></author><source><id>http://blog.suspended-chord.info</id><author><name>Jake Peck</name></author><link href="http://blog.suspended-chord.info/leo.xml" rel="self" type="application/atom+xml"/><title>a-&gt;ab</title><updated planet:format="January 06, 2014 12:00 AM">2014-01-06T00:00:00Z</updated><planet:faceheight>85</planet:faceheight><planet:activity_threshold>0</planet:activity_threshold><planet:format>atom10</planet:format><planet:facewidth>65</planet:facewidth><planet:http_etag>"401a6cd50bfb38a6747f6c6d3379d68f60e319d3"</planet:http_etag><planet:bozo>false</planet:bozo><planet:name>a&#x2192;ab (Jacob Peck)</planet:name><planet:css-id>a-ab-jacob-peck</planet:css-id><planet:http_status>200</planet:http_status></source></entry>
+

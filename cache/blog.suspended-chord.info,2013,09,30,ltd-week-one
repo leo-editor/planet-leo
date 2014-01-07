@@ -1,43 +1,45 @@
-<?xml version="1.0" ?><entry xmlns="http://www.w3.org/2005/Atom" xmlns:planet="http://planet.intertwingly.net/"><id>http://blog.suspended-chord.info/2013/09/30/ltd-week-one/</id><link href="http://blog.suspended-chord.info/2013/09/30/ltd-week-one/" rel="alternate" type="text/html"/><title>LTD Week One</title><summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Alright, off to a good start.</p>
-
-<p>This week has been pretty productive for me.  LTD might just work!  Well, with some adjustments.  Particularly the gamification bit.  Points are useless, so I’m probably going to ditch that bit as anything other than a weekly metric…</p></div></summary><content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Alright, off to a good start.</p>
-
-<p>This week has been pretty productive for me.  LTD might just work!  Well, with some adjustments.  Particularly the gamification bit.  Points are useless, so I’m probably going to ditch that bit as anything other than a weekly metric.</p>
-
-<p>Anyways, here’s a quick rundown of what I was able to accomplish last week, once LTD kicked me into gear:</p>
-
-<ul>
-<li>Work:
-
-<ul>
-<li>A whole bunch of minor cleanup for outstanding jobs</li>
-<li>Closed two long-standing tickets in my inbox</li>
-<li>Worked on an upcoming (this week) apache upgrade</li>
-</ul>
-</li>
-<li>Responsiblity:
-
-<ul>
-<li>Got my oil changed (2 weeks late :()</li>
-<li>Finished off a defensive driving course</li>
-<li>Got LTD up and running (sans scripting)</li>
-</ul>
-</li>
-<li>Leisure:
-
-<ul>
-<li>Read (a lot… seriously, that never happens)</li>
-<li>Updated some software on orison, my raspi</li>
-<li>Worked on Mint Fudge</li>
-<li>Worked on roguelike code</li>
-<li>Started playing X: Beyond the Frontier</li>
-</ul>
-</li>
-</ul>
-
-
-<p>That’s a lot more than I usually accomplish in a week, so it’s nice seeing these reports and these early results.</p>
-
-<p>Not that this particular post is interesting to anyone at all, but I promised myself I’d be writing these, so here I am.</p>
-
-<p>Thanks for dealing with me :P</p></div></content><updated planet:format="September 30, 2013 12:00 AM">2013-09-30T00:00:00Z</updated><published planet:format="September 30, 2013 12:00 AM">2013-09-30T00:00:00Z</published><author><name>Jake Peck</name></author><source><id>http://blog.suspended-chord.info</id><author><name>Jake Peck</name></author><link href="http://blog.suspended-chord.info/leo.xml" rel="self" type="application/atom+xml"/><title>a-&gt;ab</title><updated planet:format="December 02, 2013 12:00 AM">2013-12-02T00:00:00Z</updated><planet:faceheight>85</planet:faceheight><planet:activity_threshold>0</planet:activity_threshold><planet:format>atom10</planet:format><planet:facewidth>65</planet:facewidth><planet:http_etag>&quot;f3d7e23407b2fe37425b0a16847abf6211933e00&quot;</planet:http_etag><planet:bozo>false</planet:bozo><planet:name>a→ab (Jacob Peck)</planet:name><planet:css-id>a-ab-jacob-peck</planet:css-id><planet:http_status>200</planet:http_status></source></entry>
+<?xml version="1.0"?>
+<entry xmlns="http://www.w3.org/2005/Atom" xmlns:planet="http://planet.intertwingly.net/"><id>http://blog.suspended-chord.info/2013/09/30/ltd-week-one/</id><link href="http://blog.suspended-chord.info/2013/09/30/ltd-week-one/" rel="alternate" type="text/html"/><title>LTD Week One</title><summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Alright, off to a good start.</p>
+
+<p>This week has been pretty productive for me.  LTD might just work!  Well, with some adjustments.  Particularly the gamification bit.  Points are useless, so I&#x2019;m probably going to ditch that bit as anything other than a weekly metric&#x2026;</p></div></summary><content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Alright, off to a good start.</p>
+
+<p>This week has been pretty productive for me.  LTD might just work!  Well, with some adjustments.  Particularly the gamification bit.  Points are useless, so I&#x2019;m probably going to ditch that bit as anything other than a weekly metric.</p>
+
+<p>Anyways, here&#x2019;s a quick rundown of what I was able to accomplish last week, once LTD kicked me into gear:</p>
+
+<ul>
+<li>Work:
+
+<ul>
+<li>A whole bunch of minor cleanup for outstanding jobs</li>
+<li>Closed two long-standing tickets in my inbox</li>
+<li>Worked on an upcoming (this week) apache upgrade</li>
+</ul>
+</li>
+<li>Responsiblity:
+
+<ul>
+<li>Got my oil changed (2 weeks late :()</li>
+<li>Finished off a defensive driving course</li>
+<li>Got LTD up and running (sans scripting)</li>
+</ul>
+</li>
+<li>Leisure:
+
+<ul>
+<li>Read (a lot&#x2026; seriously, that never happens)</li>
+<li>Updated some software on orison, my raspi</li>
+<li>Worked on Mint Fudge</li>
+<li>Worked on roguelike code</li>
+<li>Started playing X: Beyond the Frontier</li>
+</ul>
+</li>
+</ul>
+
+
+<p>That&#x2019;s a lot more than I usually accomplish in a week, so it&#x2019;s nice seeing these reports and these early results.</p>
+
+<p>Not that this particular post is interesting to anyone at all, but I promised myself I&#x2019;d be writing these, so here I am.</p>
+
+<p>Thanks for dealing with me :P</p></div></content><updated planet:format="September 30, 2013 12:00 AM">2013-09-30T00:00:00Z</updated><published planet:format="September 30, 2013 12:00 AM">2013-09-30T00:00:00Z</published><author><name>Jake Peck</name></author><source><id>http://blog.suspended-chord.info</id><author><name>Jake Peck</name></author><link href="http://blog.suspended-chord.info/leo.xml" rel="self" type="application/atom+xml"/><title>a-&gt;ab</title><updated planet:format="January 06, 2014 12:00 AM">2014-01-06T00:00:00Z</updated><planet:faceheight>85</planet:faceheight><planet:activity_threshold>0</planet:activity_threshold><planet:format>atom10</planet:format><planet:facewidth>65</planet:facewidth><planet:http_etag>"401a6cd50bfb38a6747f6c6d3379d68f60e319d3"</planet:http_etag><planet:bozo>false</planet:bozo><planet:name>a&#x2192;ab (Jacob Peck)</planet:name><planet:css-id>a-ab-jacob-peck</planet:css-id><planet:http_status>200</planet:http_status></source></entry>
+

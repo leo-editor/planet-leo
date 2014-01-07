@@ -1,115 +1,117 @@
-<?xml version="1.0" ?><entry xmlns="http://www.w3.org/2005/Atom" xmlns:planet="http://planet.intertwingly.net/"><id>http://blog.suspended-chord.info/2013/09/20/leo-things-done/</id><link href="http://blog.suspended-chord.info/2013/09/20/leo-things-done/" rel="alternate" type="text/html"/><title>Leo Things Done</title><summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><h1>Introduction</h1>
-
-<p>Recently I’ve felt torn between the million and a half projects I have
-on the back burner at any given time.  I do too many things, and it’s</p></div></summary><content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><h1>Introduction</h1>
-
-<p>Recently I’ve felt torn between the million and a half projects I have
-on the back burner at any given time.  I do too many things, and it’s
-becoming apparent.  I find myself needing a way to keep organized, and
-to better motivate myself to balance the load.  I’ve read up on GTD,
-ZTD, Pomodoro, etc, and found them lacking, or over structured.  Additionally
-I failed to see how they would help me.  I’ve decided to come up with a
-scheme that is tailored to the way <em>I</em> work, and the way <em>I</em> accomplish
-things.</p>
-
-<p>What I’ve come up with, and intend on starting soon, is a system I’m
-calling LTD, or Leo Things Done.  I know, catchy.  Whatever, it’s just
-a name.  This post describs the basics of what I’ll be trying out over
-the next month or so… and seeing whether or not it works for me.  I’m
-<em>not</em> advocating this system for anyone else’s use, but if you decide
-to try it, let me know how it goes.</p>
-
-<h1>The system</h1>
-
-<p>LTD is a combination of parts of ZTD and GTD, with some Gamification
-bits thrown in.  On top of it all, it uses Leo to maintain itself.
-Or, at least I hope it does.</p>
-
-<h2>What you need</h2>
-
-<ul>
-<li>A computer with Leo</li>
-<li>A small pocket notebook (I use Moleskine squared notebooks — I’m not pretentious, they just fit nicely in my pocket, and I like grid paper)</li>
-<li>Pen/pencil</li>
-<li>Willpower</li>
-</ul>
-
-
-<h2>Setting up Leo</h2>
-
-<p>The core of this system is Leo.  The todo.py plugin needs to be enabled, as it will be used for priority and due-date storage.</p>
-
-<p>A .leo outline with the following chapters should be kept:</p>
-
-<ul>
-<li>Recurring (for daily, weekly, monthly, etc. tasks)</li>
-<li>Long-term Projects</li>
-<li>Notes</li>
-<li>Ideas</li>
-<li>Points</li>
-</ul>
-
-
-<p>Within each of those chapters, create the following 3 nodes:</p>
-
-<ul>
-<li>Work</li>
-<li>Responsibility</li>
-<li>Leisure</li>
-</ul>
-
-
-<h2>Using the system</h2>
-
-<p>Use the Notes chapter to scribble down notes that are related to tasks.  You can clone from notes to a child of a task if you wish, to keep
-yourself organized.</p>
-
-<p>Use the Ideas chapter to scribble down ideas that are unrelated to current tasks.  Ideas are always good to keep in mind, because in the
-future they may be promoted to tasks, once you have the time to approach them, or the desire to do something new.</p>
-
-<p>Use the Recurring chapter for daily, weekly, monthly, etc tasks.  I suggest using @daily, @weekly, etc directives in headlines to remind yourself.  Feel free
-to use todo.py to set due dates and priorities, as well.  When you finish a task in the Recurring chapter, create a copy of the node you’ve finished, set the
-due-date on that one to a proper value, and then set the priority to “done” with todo.py.  A priority sort may be in order.</p>
-
-<p>Use the Long-term Projects chapter to keep yourself on track with the long term projects you’re working on.  Projects are made up of multiple tasks, so
-each project should have a master node (i.e., Long-term Projects-&gt;Leisure-&gt;Write that novel), under which the tasks reside.</p>
-
-<p>Additionally, each task is either @major or @minor.  When you complete a @major task, award yourself 3 points (in the “Points”) chapter of that task’s type
-(Work, Responsibility, Leisure).  When you complete a @minor task, award yourself 1 point.  Projects consisting of multiple tasks have an additional completion
-bonus of 1 point for each task encompassed in the project itself (regardless of @major or @minor status) , but this is not earned until all tasks are completed.<br/>
-Should you let a task with a due date pass uncompleted, you lose 3 points if it was @major, or 1 point if it was @minor.</p>
-
-<p>The notebook is to keep in your pocket at all times.  You use it to jot down notes and ideas.</p>
-
-<p>Each day, your flow should be like this:</p>
-
-<ul>
-<li>Skim through Recurring lists for applicible @daily, @weekly, etc. and do them</li>
-<li>Skim through Long-Term Projects lists for something to work on, if you have the time.  Work first, then Responsibilies, then Leisure.</li>
-<li>Transfer notes and ideas from your notebook to the outline</li>
-<li>At the end of the day, write a short report consisting of completed tasks for the day, and change in Points values.  Feel free at this time to clear out “done” items.</li>
-<li>Rescan and reprioritize/modifiy due-dates on tasks as necessary</li>
-</ul>
-
-
-<p>Additionally, I’m going to try to do once a week consolidated reports on this blog, to give me a public platform.  Peer pressure is fantasitc, and I’ve always
-wanted to get into journaling, but have never had the pressure or drive.</p>
-
-<h2>Value of points</h2>
-
-<p>This needs work (as does the rest of the system, I’m sure), but points are good for two things: Time and Money.</p>
-
-<p>When cashing points in for Time, each Work point is ~1 hour, and each Leisure and Responsibility point is ~30 minutes.</p>
-
-<p>When cashing points in for Money, each Work point is $2, and each Leisure and Responsibility point is $1.</p>
-
-<p>When you use points, deduct them from your outline totals.  Use common sense, though.  Time and Money are to be
-used for things not in your task lists…  Time and Money spent in your task lists doesn’t have to be accounted for.
-Nor does sleep, or nightly entertainments (TV, video games, etc) — those are beneficial.  Weekends are up to you
-as to how you handle them.</p>
-
-<h2>That’s it, so far…</h2>
-
-<p>I’m going to get going with this starting next Monday, I think.  My first task will be inputting all my tasks… I think that’s going to be a @major job.</p>
-
-<p>Thanks for reading!</p></div></content><updated planet:format="September 20, 2013 12:00 AM">2013-09-20T00:00:00Z</updated><published planet:format="September 20, 2013 12:00 AM">2013-09-20T00:00:00Z</published><author><name>Jake Peck</name></author><source><id>http://blog.suspended-chord.info</id><author><name>Jake Peck</name></author><link href="http://blog.suspended-chord.info/leo.xml" rel="self" type="application/atom+xml"/><title>a-&gt;ab</title><updated planet:format="December 02, 2013 12:00 AM">2013-12-02T00:00:00Z</updated><planet:faceheight>85</planet:faceheight><planet:activity_threshold>0</planet:activity_threshold><planet:format>atom10</planet:format><planet:facewidth>65</planet:facewidth><planet:http_etag>&quot;f3d7e23407b2fe37425b0a16847abf6211933e00&quot;</planet:http_etag><planet:bozo>false</planet:bozo><planet:name>a→ab (Jacob Peck)</planet:name><planet:css-id>a-ab-jacob-peck</planet:css-id><planet:http_status>200</planet:http_status></source></entry>
+<?xml version="1.0"?>
+<entry xmlns="http://www.w3.org/2005/Atom" xmlns:planet="http://planet.intertwingly.net/"><id>http://blog.suspended-chord.info/2013/09/20/leo-things-done/</id><link href="http://blog.suspended-chord.info/2013/09/20/leo-things-done/" rel="alternate" type="text/html"/><title>Leo Things Done</title><summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><h1>Introduction</h1>
+
+<p>Recently I&#x2019;ve felt torn between the million and a half projects I have
+on the back burner at any given time.  I do too many things, and it&#x2019;s</p></div></summary><content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><h1>Introduction</h1>
+
+<p>Recently I&#x2019;ve felt torn between the million and a half projects I have
+on the back burner at any given time.  I do too many things, and it&#x2019;s
+becoming apparent.  I find myself needing a way to keep organized, and
+to better motivate myself to balance the load.  I&#x2019;ve read up on GTD,
+ZTD, Pomodoro, etc, and found them lacking, or over structured.  Additionally
+I failed to see how they would help me.  I&#x2019;ve decided to come up with a
+scheme that is tailored to the way <em>I</em> work, and the way <em>I</em> accomplish
+things.</p>
+
+<p>What I&#x2019;ve come up with, and intend on starting soon, is a system I&#x2019;m
+calling LTD, or Leo Things Done.  I know, catchy.  Whatever, it&#x2019;s just
+a name.  This post describs the basics of what I&#x2019;ll be trying out over
+the next month or so&#x2026; and seeing whether or not it works for me.  I&#x2019;m
+<em>not</em> advocating this system for anyone else&#x2019;s use, but if you decide
+to try it, let me know how it goes.</p>
+
+<h1>The system</h1>
+
+<p>LTD is a combination of parts of ZTD and GTD, with some Gamification
+bits thrown in.  On top of it all, it uses Leo to maintain itself.
+Or, at least I hope it does.</p>
+
+<h2>What you need</h2>
+
+<ul>
+<li>A computer with Leo</li>
+<li>A small pocket notebook (I use Moleskine squared notebooks &#x2014; I&#x2019;m not pretentious, they just fit nicely in my pocket, and I like grid paper)</li>
+<li>Pen/pencil</li>
+<li>Willpower</li>
+</ul>
+
+
+<h2>Setting up Leo</h2>
+
+<p>The core of this system is Leo.  The todo.py plugin needs to be enabled, as it will be used for priority and due-date storage.</p>
+
+<p>A .leo outline with the following chapters should be kept:</p>
+
+<ul>
+<li>Recurring (for daily, weekly, monthly, etc. tasks)</li>
+<li>Long-term Projects</li>
+<li>Notes</li>
+<li>Ideas</li>
+<li>Points</li>
+</ul>
+
+
+<p>Within each of those chapters, create the following 3 nodes:</p>
+
+<ul>
+<li>Work</li>
+<li>Responsibility</li>
+<li>Leisure</li>
+</ul>
+
+
+<h2>Using the system</h2>
+
+<p>Use the Notes chapter to scribble down notes that are related to tasks.  You can clone from notes to a child of a task if you wish, to keep
+yourself organized.</p>
+
+<p>Use the Ideas chapter to scribble down ideas that are unrelated to current tasks.  Ideas are always good to keep in mind, because in the
+future they may be promoted to tasks, once you have the time to approach them, or the desire to do something new.</p>
+
+<p>Use the Recurring chapter for daily, weekly, monthly, etc tasks.  I suggest using @daily, @weekly, etc directives in headlines to remind yourself.  Feel free
+to use todo.py to set due dates and priorities, as well.  When you finish a task in the Recurring chapter, create a copy of the node you&#x2019;ve finished, set the
+due-date on that one to a proper value, and then set the priority to &#x201C;done&#x201D; with todo.py.  A priority sort may be in order.</p>
+
+<p>Use the Long-term Projects chapter to keep yourself on track with the long term projects you&#x2019;re working on.  Projects are made up of multiple tasks, so
+each project should have a master node (i.e., Long-term Projects-&gt;Leisure-&gt;Write that novel), under which the tasks reside.</p>
+
+<p>Additionally, each task is either @major or @minor.  When you complete a @major task, award yourself 3 points (in the &#x201C;Points&#x201D;) chapter of that task&#x2019;s type
+(Work, Responsibility, Leisure).  When you complete a @minor task, award yourself 1 point.  Projects consisting of multiple tasks have an additional completion
+bonus of 1 point for each task encompassed in the project itself (regardless of @major or @minor status) , but this is not earned until all tasks are completed.<br/>
+Should you let a task with a due date pass uncompleted, you lose 3 points if it was @major, or 1 point if it was @minor.</p>
+
+<p>The notebook is to keep in your pocket at all times.  You use it to jot down notes and ideas.</p>
+
+<p>Each day, your flow should be like this:</p>
+
+<ul>
+<li>Skim through Recurring lists for applicible @daily, @weekly, etc. and do them</li>
+<li>Skim through Long-Term Projects lists for something to work on, if you have the time.  Work first, then Responsibilies, then Leisure.</li>
+<li>Transfer notes and ideas from your notebook to the outline</li>
+<li>At the end of the day, write a short report consisting of completed tasks for the day, and change in Points values.  Feel free at this time to clear out &#x201C;done&#x201D; items.</li>
+<li>Rescan and reprioritize/modifiy due-dates on tasks as necessary</li>
+</ul>
+
+
+<p>Additionally, I&#x2019;m going to try to do once a week consolidated reports on this blog, to give me a public platform.  Peer pressure is fantasitc, and I&#x2019;ve always
+wanted to get into journaling, but have never had the pressure or drive.</p>
+
+<h2>Value of points</h2>
+
+<p>This needs work (as does the rest of the system, I&#x2019;m sure), but points are good for two things: Time and Money.</p>
+
+<p>When cashing points in for Time, each Work point is ~1 hour, and each Leisure and Responsibility point is ~30 minutes.</p>
+
+<p>When cashing points in for Money, each Work point is $2, and each Leisure and Responsibility point is $1.</p>
+
+<p>When you use points, deduct them from your outline totals.  Use common sense, though.  Time and Money are to be
+used for things not in your task lists&#x2026;  Time and Money spent in your task lists doesn&#x2019;t have to be accounted for.
+Nor does sleep, or nightly entertainments (TV, video games, etc) &#x2014; those are beneficial.  Weekends are up to you
+as to how you handle them.</p>
+
+<h2>That&#x2019;s it, so far&#x2026;</h2>
+
+<p>I&#x2019;m going to get going with this starting next Monday, I think.  My first task will be inputting all my tasks&#x2026; I think that&#x2019;s going to be a @major job.</p>
+
+<p>Thanks for reading!</p></div></content><updated planet:format="September 20, 2013 12:00 AM">2013-09-20T00:00:00Z</updated><published planet:format="September 20, 2013 12:00 AM">2013-09-20T00:00:00Z</published><author><name>Jake Peck</name></author><source><id>http://blog.suspended-chord.info</id><author><name>Jake Peck</name></author><link href="http://blog.suspended-chord.info/leo.xml" rel="self" type="application/atom+xml"/><title>a-&gt;ab</title><updated planet:format="January 06, 2014 12:00 AM">2014-01-06T00:00:00Z</updated><planet:faceheight>85</planet:faceheight><planet:activity_threshold>0</planet:activity_threshold><planet:format>atom10</planet:format><planet:facewidth>65</planet:facewidth><planet:http_etag>"401a6cd50bfb38a6747f6c6d3379d68f60e319d3"</planet:http_etag><planet:bozo>false</planet:bozo><planet:name>a&#x2192;ab (Jacob Peck)</planet:name><planet:css-id>a-ab-jacob-peck</planet:css-id><planet:http_status>200</planet:http_status></source></entry>
+

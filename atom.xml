@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:planet="http://planet.intertwingly.net/" xmlns:indexing="urn:atom-extension:indexing" indexing:index="no"><access:restriction xmlns:access="http://www.bloglines.com/about/specs/fac-1.0" relationship="deny"/>
   <title>Planet Leo</title>
-  <updated>2013-12-04T21:49:51Z</updated>
+  <updated>2014-01-07T00:41:38Z</updated>
   <generator uri="http://intertwingly.net/code/venus/">Venus</generator>
   <author>
     <name>Leo Editor mailing list</name>
@@ -12,58 +12,95 @@
   <link href="http://leoeditor.com" rel="alternate"/>
 
   <entry>
-    <id>http://blog.suspended-chord.info/2013/12/02/ltd-week-ten/</id>
-    <link href="http://blog.suspended-chord.info/2013/12/02/ltd-week-ten/" rel="alternate" type="text/html"/>
-    <title>LTD Week Ten</title>
-    <summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Less than average productivity this week, but that’s to be expected with the US Holidays.  Here’s a recap:</p>
+    <id>http://blog.suspended-chord.info/2014/01/06/ltd-week-2014-01/</id>
+    <link href="http://blog.suspended-chord.info/2014/01/06/ltd-week-2014-01/" rel="alternate" type="text/html"/>
+    <title>LTD Week 2014 01</title>
+    <summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Interesting week… here’s some highlights:</p>
+
+
 
 <ul>
+
 <li>Work
 
+
+
 <ul>
-<li>Performed OS upgrades and patches on some blackboard servers</li>
+
+<li>Finished up post-blackboard-migration cleanup</li>
+
+<li>Installed a custom page to make maintainence downtimes less user-hostile on blackboard</li>
+
 </ul>
+
 </li>
+
 </ul></div>
     </summary>
-    <content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Less than average productivity this week, but that’s to be expected with the US Holidays.  Here’s a recap:</p>
+    <content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Interesting week… here’s some highlights:</p>
+
+
 
 <ul>
+
 <li>Work
 
+
+
 <ul>
-<li>Performed OS upgrades and patches on some blackboard servers</li>
-<li>Installed a PHP module on our webserver</li>
-<li>Did a few DNS entries</li>
-<li>Installed an emergency patch on blackboard right before Thanksgiving…</li>
+
+<li>Finished up post-blackboard-migration cleanup</li>
+
+<li>Installed a custom page to make maintainence downtimes less user-hostile on blackboard</li>
+
+<li>Fixed some yearly accounting errors related to holdiays… silly unix</li>
+
+<li>Encountered a mysterious bug on an email script that only runs once a month</li>
+
+<li>Made a user account on one of our machines</li>
+
 </ul>
+
 </li>
+
 <li>Responsibility
 
+
+
 <ul>
-<li>Looked at a new apartment (!)</li>
-<li>Maintained my Tabata routine half-heartedly (meh… I’m getting bad about this.)</li>
+
+<li>Refactored my LTD stuff into an external script (things were getting ugly)</li>
+
 </ul>
+
 </li>
+
 <li>Leisure
 
+
+
 <ul>
-<li>Read The Manor #5</li>
-<li>Read Crawl! #6</li>
-<li>Read Crawl! #7</li>
-<li>Fixed a few small Leo bugs (one related to quicksearch.py’s theming, and one related to nodewatch.py’s focusing behavior)</li>
+
+<li>Added @color support to @buttons in Leo</li>
+
+<li>Ran through a test run of migrating Leo from bzr to github</li>
+
+<li>Worked a bit on silica</li>
+
+<li>Updated the Leo color map</li>
+
 <li>Updated orison’s software</li>
-<li>Played a crapton of Smite</li>
-<li>Spent too much money online</li>
+
+<li>Failed to get a Red Eclipse server installed on orison… I’ll try again soon.</li>
+
 </ul>
+
 </li>
-</ul>
 
-
-<p>Whoo!  Back to the grind.</p></div>
+</ul></div>
     </content>
-    <updated>2013-12-02T00:00:00Z</updated>
-    <published>2013-12-02T00:00:00Z</published>
+    <updated>2014-01-06T00:00:00Z</updated>
+    <published>2014-01-06T00:00:00Z</published>
     <author>
       <name>Jake Peck</name>
     </author>
@@ -74,7 +111,217 @@
       </author>
       <link href="http://blog.suspended-chord.info/leo.xml" rel="self" type="application/atom+xml"/>
       <title>a-&gt;ab</title>
-      <updated>2013-12-02T00:00:00Z</updated>
+      <updated>2014-01-06T00:00:00Z</updated>
+    </source>
+  </entry>
+
+  <entry>
+    <id>http://blog.suspended-chord.info/2013/12/30/ltd-week-fourteen/</id>
+    <link href="http://blog.suspended-chord.info/2013/12/30/ltd-week-fourteen/" rel="alternate" type="text/html"/>
+    <title>LTD Week Fourteen</title>
+    <summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Being a holiday week — and also containing my birthday — I slacked off a bit this week.</p>
+
+
+
+<ul>
+
+<li>Work
+
+
+
+<ul>
+
+<li>Install ghostscript 9.10 on blackboard server</li>
+
+</ul>
+
+</li>
+
+</ul></div>
+    </summary>
+    <content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Being a holiday week — and also containing my birthday — I slacked off a bit this week.</p>
+
+
+
+<ul>
+
+<li>Work
+
+
+
+<ul>
+
+<li>Install ghostscript 9.10 on blackboard server</li>
+
+<li>Initial cleanup of old blackboard server stuff</li>
+
+<li>Dead email address purging from several scripts</li>
+
+</ul>
+
+</li>
+
+<li>Responsibility
+
+
+
+<ul>
+
+<li>Applied for an apartment (whoo!)</li>
+
+<li>That’s about it…</li>
+
+</ul>
+
+</li>
+
+<li>Leisure
+
+
+
+<ul>
+
+<li>Worked a bit on silica (‘modules’ work now)</li>
+
+<li>Worked on the beginnings of a Leo-Trello sync plugin</li>
+
+<li>Designed 2(!) micro RPGs</li>
+
+<li>Read “Dark Guest”</li>
+
+<li>Read WMLP #5</li>
+
+</ul>
+
+</li>
+
+</ul></div>
+    </content>
+    <updated>2013-12-30T00:00:00Z</updated>
+    <published>2013-12-30T00:00:00Z</published>
+    <author>
+      <name>Jake Peck</name>
+    </author>
+    <source>
+      <id>http://blog.suspended-chord.info</id>
+      <author>
+        <name>Jake Peck</name>
+      </author>
+      <link href="http://blog.suspended-chord.info/leo.xml" rel="self" type="application/atom+xml"/>
+      <title>a-&gt;ab</title>
+      <updated>2014-01-06T00:00:00Z</updated>
+    </source>
+  </entry>
+
+  <entry>
+    <id>http://blog.suspended-chord.info/2013/12/24/ltd-week-thirteen/</id>
+    <link href="http://blog.suspended-chord.info/2013/12/24/ltd-week-thirteen/" rel="alternate" type="text/html"/>
+    <title>LTD Week Thirteen</title>
+    <summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Busy busy pre-holiday week:</p>
+
+
+
+<ul>
+
+<li>Work
+
+
+
+<ul>
+
+<li>Added a database into our backup policy</li>
+
+<li>Replaced a dead power supply on a server</li>
+
+<li>Performed the final blackboard migration (in record time!)</li>
+
+</ul>
+
+</li>
+
+</ul></div>
+    </summary>
+    <content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Busy busy pre-holiday week:</p>
+
+
+
+<ul>
+
+<li>Work
+
+
+
+<ul>
+
+<li>Added a database into our backup policy</li>
+
+<li>Replaced a dead power supply on a server</li>
+
+<li>Performed the final blackboard migration (in record time!)</li>
+
+</ul>
+
+</li>
+
+<li>Responsibility
+
+
+
+<ul>
+
+<li>Flundered big time on my Tabata routine.  Grr.</li>
+
+<li>Reconciled my checkbook (a mammoth undertaking!)</li>
+
+<li>Did some housekeeping on my LTD workbook</li>
+
+</ul>
+
+</li>
+
+<li>Leisure
+
+
+
+<ul>
+
+<li>Started work on silica!  Yes!</li>
+
+<li>Read WMLP #3 and #4</li>
+
+<li>Rewrote a good chunk of the Mint Fudge rules</li>
+
+<li>Updated orison’s software</li>
+
+</ul>
+
+</li>
+
+</ul>
+
+
+
+
+
+<p>Whee…</p>
+
+
+
+<p>Oh, and yesterday was my birthday :)</p></div>
+    </content>
+    <updated>2013-12-24T00:00:00Z</updated>
+    <published>2013-12-24T00:00:00Z</published>
+    <author>
+      <name>Jake Peck</name>
+    </author>
+    <source>
+      <id>http://blog.suspended-chord.info</id>
+      <author>
+        <name>Jake Peck</name>
+      </author>
+      <link href="http://blog.suspended-chord.info/leo.xml" rel="self" type="application/atom+xml"/>
+      <title>a-&gt;ab</title>
+      <updated>2014-01-06T00:00:00Z</updated>
     </source>
   </entry>
 
@@ -83,49 +330,93 @@
     <link href="http://leo-editor.github.io/register_leo.html" rel="alternate" type="text/html"/>
     <title>Registering Leo with Windows</title>
     <summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p><em>a post in progress</em></p>
+
 <p>Installing Leo using the standard setup program from Sourceforge does nice things like create Start Menu &amp; Desktop shortcuts and enable open Leo files with a simple double-click. For those that like to run from source code or a portable drive there are <a href="http://leoeditor.com/installing.html#installing-from-sources-windows">manual instructions</a> for doing the same, but it's fiddly and rapidly gets old. Why repeat when automation is possible?</p>
+
 <p>Introducing <strong><a href="http://bazaar.launchpad.net/~leo-editor-team/leo-editor/trunk3/view/head:/leo/scripts/register-leo.leox">register-leo.leox</a></strong> (and <a href="http://bazaar.launchpad.net/~leo-editor-team/leo-editor/trunk3/view/head:/leo/scripts/unregister-leo.leox">unregister-leo</a>): which creates the necessary Windows registry keys for integration with Explorer and friends. After running this script .leo and .leox files are shown with the Leo icon, and double-clicking on them will open them in Leo.</p>
+
 <p>To use: open a command shell with administrative rights, and run:</p>
+
 <div class="highlight"><pre>    d:\path\to\python.exe d:\path\to\leo\launchLeo.py e:\path\to\register-leo.leox
+
 </pre></div>
+
+
+
 
 
 <p>All in one step: you can try the <a href="http://bazaar.launchpad.net/~leo-editor-team/leo-editor/trunk3/view/head:/leo/scripts/elevate.py"><code>elevate.py</code></a> script which will ask for Admin privileges from a regular command shell:</p>
+
 <div class="highlight"><pre>    d:\path\to\python.exe d:\path\to\leo\leo\scripts\elevate.py e:\path\to\register-leo.leox
+
 </pre></div>
+
+
+
 
 
 <p>Eventually I'd like to see this activated from a Settings/Options/Preferences menu. Then we can distribute daily and portable builds of Leo and still have easy (dis)integration with the host (on Windows) and not rely so heavily on stable builds and installers, which are few and long between 'cause of the pain in building them.</p>
+
 <p>Developed and tested with Python 2.7, Leo 4.10 and Win7 x64. Py3 needs work.</p>
+
 <p>Feedback/testing/patches welcome (see mailing list).</p>
+
 <p>-Matt Wilkie</p>
+
 <hr/>
+
 <h2>Notes</h2>
+
 <h4>What's this <code>.leox</code>?</h4>
+
 <p>I created this convention so I could easily distinguish regular Leo files, which can be about anything, and Leo files which are runnable Leo scripts. The intention is to allow for things like:</p>
+
 <div class="highlight"><pre>    leo --script d:\path\to\scripts\register-leo.leox
+
 </pre></div>
+
+
+
 
 
 <p>At present double-clicking a .leox opens in edit mode. It occurs to me as I write this it could be changed so it runs automatically by adding, <code>--script</code> (quotes might need fiddling with):</p>
+
 <div class="highlight"><pre><span class="n">ftype</span> <span class="n">LeoFile</span><span class="o">=</span><span class="s">"C:\Python27\python.exe"</span> <span class="s">"B:</span><span class="se">\a</span><span class="s">pps\leo\launchLeo.py"</span> <span class="s">"--script ""%1"" %*</span>
+
 </pre></div>
+
+
+
 
 
 <h4>Any .leo is a launcher</h4>
+
 <p>Association has the added benefit of removing the need for most to create a batch file and then figure out where in PATH to store it in order to use Leo. As a matter of fact, any .leo file becomes the equivalent of launchLeo.py, just try this:</p>
+
 <div class="highlight"><pre><span class="c">%homedrive%\homepath%\workbook.leo x:\path\to\some\other\leofile.leo</span>
+
 </pre></div>
+
+
+
 
 
 <p>or to build on the previous note:</p>
+
 <div class="highlight"><pre><span class="c">%homedrive%\homepath%\workbook.leo --script ..\scripts\unregister-leo.leox</span>
+
 </pre></div>
 
 
+
+
+
 <h3>Resources used</h3>
+
 <p>http://superuser.com/questions/88491/force-cmd-exe-to-run-as-admin/<br/>
+
 http://stackoverflow.com/questions/2331690/how-to-set-a-icon-file-while-creating-file<br/>
+
 http://stackoverflow.com/questions/771689/how-can-i-set-an-icon-for-my-own-file-extension</p></div>
     </summary>
     <updated>2013-11-27T23:00:00Z</updated>
@@ -141,145 +432,6 @@ http://stackoverflow.com/questions/771689/how-can-i-set-an-icon-for-my-own-file-
       <link href="http://leo-editor.github.io/feeds%5Call.atom.xml" rel="self" type="application/atom+xml"/>
       <title>Leo Blog</title>
       <updated>2013-11-27T23:00:00Z</updated>
-    </source>
-  </entry>
-
-  <entry>
-    <id>http://blog.suspended-chord.info/2013/11/25/ltd-week-nine/</id>
-    <link href="http://blog.suspended-chord.info/2013/11/25/ltd-week-nine/" rel="alternate" type="text/html"/>
-    <title>LTD Week Nine</title>
-    <summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Very busy week, work-wise.  Not much outside of work though…</p>
-
-<ul>
-<li>Work
-
-<ul>
-<li>Got our new t5-2 hardware talking to the storage array</li>
-<li>Scripted a few ftp jobs</li>
-</ul>
-</li>
-</ul></div>
-    </summary>
-    <content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Very busy week, work-wise.  Not much outside of work though…</p>
-
-<ul>
-<li>Work
-
-<ul>
-<li>Got our new t5-2 hardware talking to the storage array</li>
-<li>Scripted a few ftp jobs</li>
-<li>Added a server to our monitoring system</li>
-<li>Set up an install server for Solaris 10 01/13 SPARC</li>
-<li>Added some new LUNs to several machines</li>
-<li>Prepped for OS upgrades…</li>
-</ul>
-</li>
-<li>Responsibility
-
-<ul>
-<li>Maintained my tabata routine</li>
-</ul>
-</li>
-<li>Leisure
-
-<ul>
-<li>Fixed a minor DDOS attack (from Google’s address space?!?) on my servers… wtf?</li>
-<li>Read Crawl! #4</li>
-<li>Read Crawl! #5</li>
-<li>Rewrote the Mint Fudge sketchy-sketch</li>
-<li>Updated orison’s software</li>
-</ul>
-</li>
-</ul>
-
-
-<p>Doesn’t look like much, but it was a lot of time consuming BS.  Also lots of planning.</p></div>
-    </content>
-    <updated>2013-11-25T00:00:00Z</updated>
-    <published>2013-11-25T00:00:00Z</published>
-    <author>
-      <name>Jake Peck</name>
-    </author>
-    <source>
-      <id>http://blog.suspended-chord.info</id>
-      <author>
-        <name>Jake Peck</name>
-      </author>
-      <link href="http://blog.suspended-chord.info/leo.xml" rel="self" type="application/atom+xml"/>
-      <title>a-&gt;ab</title>
-      <updated>2013-12-02T00:00:00Z</updated>
-    </source>
-  </entry>
-
-  <entry>
-    <id>http://blog.suspended-chord.info/2013/11/18/ltd-week-eight/</id>
-    <link href="http://blog.suspended-chord.info/2013/11/18/ltd-week-eight/" rel="alternate" type="text/html"/>
-    <title>LTD Week Eight</title>
-    <summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Another decently busy week:</p>
-
-<ul>
-<li>Work
-
-<ul>
-<li>Created some unix users</li>
-<li>Worked with some vendors on some file transfer jobs</li>
-<li>Worked on getting a PHP module installed for our website</li>
-</ul>
-</li>
-</ul></div>
-    </summary>
-    <content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Another decently busy week:</p>
-
-<ul>
-<li>Work
-
-<ul>
-<li>Created some unix users</li>
-<li>Worked with some vendors on some file transfer jobs</li>
-<li>Worked on getting a PHP module installed for our website</li>
-<li>Worked a bit on our new t5-2 hardward w/r/t disk multipathing</li>
-</ul>
-</li>
-<li>Responsibility
-
-<ul>
-<li>Did my Tabata every day (yeah! back on track!)</li>
-<li>Got my driver-side mirror fixed (it had a crack — ice damage)</li>
-</ul>
-</li>
-<li>Leisure
-
-<ul>
-<li>Read MicroFudge</li>
-<li>Read ERP (‘Elegant Role Playing’)</li>
-<li>Fixed a ‘huge font’ issue in Leo</li>
-<li>Patched Leo to make @rclick nodes create commands like @command and @button nodes</li>
-<li>Refactored my @nodewatch definitions for LTD into a single script (keep it DRY)</li>
-<li>Scripted an @rclick to create weekly reports for LTD progress</li>
-<li>Worked on Kahl a bit</li>
-<li>Read Crawl! #3</li>
-<li>Removed ceekrt from my site… it’s about time</li>
-<li>Updated orison’s software</li>
-</ul>
-</li>
-</ul>
-
-
-<p>Later on today, I intend to do an updated version of my original LTD article, explaining how it works now, and sharing my scripts at the moment.</p></div>
-    </content>
-    <updated>2013-11-18T00:00:00Z</updated>
-    <published>2013-11-18T00:00:00Z</published>
-    <author>
-      <name>Jake Peck</name>
-    </author>
-    <source>
-      <id>http://blog.suspended-chord.info</id>
-      <author>
-        <name>Jake Peck</name>
-      </author>
-      <link href="http://blog.suspended-chord.info/leo.xml" rel="self" type="application/atom+xml"/>
-      <title>a-&gt;ab</title>
-      <updated>2013-12-02T00:00:00Z</updated>
     </source>
   </entry>
 
@@ -324,132 +476,124 @@ http://stackoverflow.com/questions/771689/how-can-i-set-an-icon-for-my-own-file-
   </entry>
 
   <entry xml:lang="En">
-    <id>tag:www.maphew.com,2013-05-17:/Itches/oh-assign-assign-wherefore-art-thou-assign</id>
-    <link href="http://www.maphew.com/Itches/oh-assign-assign-wherefore-art-thou-assign/" rel="alternate" type="text/html"/>
-    <title xml:lang="En">Oh Assign, Assign, wherefore art thou Assign?</title>
-    <content type="xhtml" xml:lang="En"><div xmlns="http://www.w3.org/1999/xhtml"><p>Most of my computer life of the last few years has lived within Dropbox. It's proven to be a very hands off largely no-thought means of ensuring the 3 Windows computers I use regularly at work and home all have almost identical tool chains and environments. It's always bugged me though, that my "home" is buried under <code>C:\Users\matt\Dropbox</code> (though at least with Win7 it's not under that horrible "Documents and Settings" folder!). Way too freakin much typing just to get to the point of starting work, or fun.</p>
-<p>I've tried several methods for making this more livable, and each succeeds to a certain extent -- though <em>none</em> come close to matching what we had 20 years ago with the <a href="http://en.wikipedia.org/wiki/AmigaOS" title="scan for  assign">Amiga</a>.</p>
-<h4>Move Dropbox to root of C:</h4>
-<p>yech. user data on same partition as operating system. never been comfortable with this. I want OS and Programs over <em>[there]</em>, my docs and stuff <em>[here]</em>, and easily wipe or restore one without touching the other.</p>
-<h4>Mapped "Network" Drive</h4>
-<p>Open a command shell, fire off <code>net use B: \\localhost\c$\users\%username%\Dropbox /persistent:yes</code>.</p>
-<p>(So nice that A: and B: almost never exist anymore, and are thus available, even when joined to a domain.)</p>
-<p>Worked swimmingly well for several months, until learning that the mysterious Mecurial and Bazaar lock errors I would encounter at seemingly random occasions and took hours to get out of were due to timing issues in the underlying network transport protocols, even though everything was happening on the local machine and darn fast, to human perception.</p>
-<p>Also can't use any commands requiring elevated privileges because "B:" isn't available to Administrator. (why o why doesn't Windows have <code>sudo</code>??)</p>
-<h4>Subst-tituted Drive</h4>
-<p><code>subst b: c:\users\%username%\dropbox</code></p>
-<p>An effective cure for the timing issues noted previously. Suffers from lack of sudo, which has been real problem while trying to work on improving Leo and Osgeo4w install packages.</p>
-<h4>Separate Partition</h4>
-<p>The Dropbox app steadfastly refuses to use a bare drive as it's home, and insists on creating a folder called <code>Dropbox</code> where you point it. If you run a client older than 1.6 or so, before the database was encrypted, it is possible to open the <code>config.db</code> file in an sqlite3 aware db program and change the folder name manually, including to a bare drive letter. </p>
-<p>There are some features lost with this, plus you'll also be syncing the <em>Recycle Bin</em> and <em>System Volume Information</em>, which could cause other issues.</p>
-<h4>Mounted NTFS Folder</h4>
-<p><strong>Finally</strong>, yesterday, I hit open the best possible solution short of the Amiga's Second Coming: create a separate partition and volume and instead of assigning it a drive letter mount it to an empty NTFS folder, and then <code>subst</code> that. </p>
-<div class="highlight"><pre>C:\Users\<span class="o">%</span>username<span class="o">%</span>\Dropbox     <span class="o">&lt;--</span> mount volume here
-subst b: C:\Users\<span class="o">%</span>username<span class="o">%</span>\Dropbox
-</pre></div>
-
-
-<p>For extra flourish, size the volume to your Dropbox limit. Doing so you always know at a glance how close you are to your quota. (Good idea to make it 15% than actual quota for breathing room. It's enough space to defrag, and Windows will get markedly slower on volumes with less free board.)</p>
-<p><img alt="dropbox volume in My Computer" src="http://www.maphew.com/files/itches/dropbox-volume.jpg"/></p></div>
-    </content>
-    <updated>2013-05-17T08:54:00Z</updated>
-    <category term="itches"/>
-    <author>
-      <name>matt wilkie</name>
-      <email>maphew+website@gmail.com</email>
-      <uri>http://www.maphew.com/</uri>
-    </author>
-    <source>
-      <id>tag:www.maphew.com,2011-06-11:/atom/</id>
-      <icon>http://www.maphew.com/favicon.ico</icon>
-      <logo>http://www.maphew.com/feed-logo.png</logo>
-      <author>
-        <name>matt wilkie</name>
-        <email>maphew+website@gmail.com</email>
-        <uri>http://www.maphew.com/</uri>
-      </author>
-      <link href="http://www.maphew.com/" rel="alternate" type="text/html"/>
-      <link href="http://www.maphew.com/atom/" rel="self" type="application/atom+xml"/>
-      <title xml:lang="En">a hewer of maps</title>
-      <updated>2013-05-17T08:54:00Z</updated>
-    </source>
-  </entry>
-
-  <entry xml:lang="En">
-    <id>tag:www.maphew.com,2013-05-16:/Python/python-fixit-snippets</id>
-    <link href="http://www.maphew.com/Python/python-fixit-snippets/" rel="alternate" type="text/html"/>
-    <title xml:lang="En">Python fixit snippets</title>
-    <content type="xhtml" xml:lang="En"><div xmlns="http://www.w3.org/1999/xhtml"><p>Very short problems about python, found and fixed.</p>
-<div class="highlight"><pre><span class="o">&gt;</span><span class="n">pip</span>
-<span class="n">failed</span> <span class="n">to</span> <span class="n">create</span> <span class="n">process</span><span class="p">.</span>
-</pre></div>
-
-
-<p>whups, this worked yesterday. Whatup? --&gt; drive letters/paths have been
-changed. The path to python.exe specified in pip.exe has moved. Solution:
-<a href="http://www.maphew.com/Python/install-pip-script/">reinstall pip</a> (and any other py programs similarly impacted).</p></div>
-    </content>
-    <updated>2013-05-16T18:54:00Z</updated>
-    <category term="fixes"/>
-    <category term="python"/>
-    <author>
-      <name>matt wilkie</name>
-      <email>maphew+website@gmail.com</email>
-      <uri>http://www.maphew.com/</uri>
-    </author>
-    <source>
-      <id>tag:www.maphew.com,2011-06-11:/atom/</id>
-      <icon>http://www.maphew.com/favicon.ico</icon>
-      <logo>http://www.maphew.com/feed-logo.png</logo>
-      <author>
-        <name>matt wilkie</name>
-        <email>maphew+website@gmail.com</email>
-        <uri>http://www.maphew.com/</uri>
-      </author>
-      <link href="http://www.maphew.com/" rel="alternate" type="text/html"/>
-      <link href="http://www.maphew.com/atom/" rel="self" type="application/atom+xml"/>
-      <title xml:lang="En">a hewer of maps</title>
-      <updated>2013-05-17T08:54:00Z</updated>
-    </source>
-  </entry>
-
-  <entry xml:lang="En">
     <id>tag:www.maphew.com,2013-04-28:/Projects/portable-leo-from-scratch-on-windows</id>
     <link href="http://www.maphew.com/Projects/portable-leo-from-scratch-on-windows/" rel="alternate" type="text/html"/>
     <title xml:lang="En">Portable Leo from scratch on Windows</title>
     <content type="xhtml" xml:lang="En"><div xmlns="http://www.w3.org/1999/xhtml"><p>Here is a recipe for installing <a href="http://leoeditor.com">Leo</a> from scratch on Windows (Win7 tested). The only prerequisites are command line <code>wget</code> in PATH and an internet connection.</p>
+
 <p>About 50mb of files are downloaded and 200mb consumed when done.</p>
+
 <p>Open a command prompt and run:</p>
+
 <div class="highlight"><pre><span class="n">mkdir</span> <span class="n">X</span><span class="p">:</span><span class="o">\</span><span class="n">testing</span>
+
 <span class="n">pushd</span> <span class="n">X</span><span class="p">:</span><span class="o">\</span><span class="n">testing</span>
 
+
+
 <span class="n">wget</span> <span class="o">-</span><span class="n">O</span> <span class="n">apt</span><span class="p">.</span><span class="n">exe</span> <span class="o">--</span><span class="n">no</span><span class="o">-</span><span class="n">clobber</span> <span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">download</span><span class="p">.</span><span class="n">osgeo</span><span class="p">.</span><span class="n">org</span><span class="o">/</span><span class="n">osgeo4w</span><span class="o">/</span><span class="n">release</span><span class="o">/</span><span class="n">apt</span><span class="o">/</span><span class="n">apt</span><span class="o">-</span><span class="n">r1193M</span><span class="p">.</span><span class="n">exe</span>
+
 <span class="n">SET</span> <span class="n">OSGEO4W_ROOT</span><span class="p">=</span><span class="c">%~dp0\root</span>
+
 <span class="n">apt</span> <span class="n">setup</span>
+
 <span class="n">apt</span> <span class="n">update</span>
+
 <span class="n">apt</span> <span class="n">install</span> <span class="n">pyqt4</span> <span class="n">sip</span>
+
+
 
 <span class="n">call</span> <span class="n">root</span><span class="o">\</span><span class="n">osgeo4w</span><span class="p">.</span><span class="n">bat</span>
 
+
+
 <span class="n">wget</span> <span class="o">--</span><span class="n">no</span><span class="o">-</span><span class="n">check</span><span class="o">-</span><span class="n">certificate</span> <span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">gist</span><span class="p">.</span><span class="n">github</span><span class="p">.</span><span class="n">com</span><span class="o">/</span><span class="n">maphew</span><span class="o">/</span>5393935<span class="o">/</span><span class="n">raw</span><span class="o">/</span><span class="n">install</span><span class="o">-</span><span class="n">pip</span><span class="p">.</span><span class="n">py</span>
+
 <span class="n">python</span> <span class="n">install</span><span class="o">-</span><span class="n">pip</span><span class="p">.</span><span class="n">py</span> <span class="n">GO</span>
+
 <span class="n">python</span> <span class="n">install</span><span class="o">-</span><span class="n">pip</span><span class="p">.</span><span class="n">py</span> <span class="n">GO</span>
+
+
 
 <span class="n">pip</span> <span class="n">install</span> <span class="o">-</span><span class="nb">i</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">testpypi</span><span class="p">.</span><span class="n">python</span><span class="p">.</span><span class="n">org</span><span class="o">/</span><span class="n">pypi</span> <span class="n">leo</span><span class="o">-</span><span class="n">editor</span>
 
+
+
 <span class="n">python</span> <span class="n">apps</span><span class="o">\</span><span class="n">Python27</span><span class="o">\</span><span class="n">Scripts</span><span class="o">\</span><span class="n">leo</span>
+
 </pre></div>
 
 
+
+
+
 <p>After this the directory <code>X:\testing\root</code> can be renamed and/or moved anywhere.</p>
+
 <p>To run leo in future sessions, simply call <code>x:\path\to\root\osgeo4w.bat python apps\Python27\Scripts\leo</code>, either as a batch file or windows shortcut.</p>
+
 <p>IMPORTANT NOTE - this is just a proof of concept. It pulls together a couple of my different projects, and is very satisfying in that regard (yay! they work!), but is not ready for prime time. Feedback welcome.</p>
+
 <p>(((this is a post in progress, see <a href="https://groups.google.com/forum/?hl=en&amp;fromgroups=#!searchin/leo-editor/portable|sort:date/leo-editor/pH4mHaSRbfc/tQcxjn37xKUJ">this thread</a> for more)))</p></div>
     </content>
     <updated>2013-04-28T08:00:00Z</updated>
     <category term="projects"/>
     <category term="leo"/>
     <category term="python"/>
+    <author>
+      <name>matt wilkie</name>
+      <email>maphew+website@gmail.com</email>
+      <uri>http://www.maphew.com/</uri>
+    </author>
+    <source>
+      <id>tag:www.maphew.com,2011-06-11:/atom/</id>
+      <icon>http://www.maphew.com/favicon.ico</icon>
+      <logo>http://www.maphew.com/feed-logo.png</logo>
+      <author>
+        <name>matt wilkie</name>
+        <email>maphew+website@gmail.com</email>
+        <uri>http://www.maphew.com/</uri>
+      </author>
+      <link href="http://www.maphew.com/" rel="alternate" type="text/html"/>
+      <link href="http://www.maphew.com/atom/" rel="self" type="application/atom+xml"/>
+      <title xml:lang="En">a hewer of maps</title>
+      <updated>2013-12-19T01:26:29Z</updated>
+    </source>
+  </entry>
+
+  <entry xml:lang="En">
+    <id>tag:www.maphew.com,2010-10-08:/Projects/Cahill-Keyes_Butterfly_Map/mj-s-work-reproduced</id>
+    <link href="http://www.maphew.com/Projects/Cahill-Keyes_Butterfly_Map/mj-s-work-reproduced/" rel="alternate" type="text/html"/>
+    <title xml:lang="En">MJ's work reproduced</title>
+    <content type="xhtml" xml:lang="En"><div xmlns="http://www.w3.org/1999/xhtml"><p><em>2010-Oct-08</em></p>
+<p>I've successfully recreated the single octant and eight octant Open
+Office drawings from the macros and instructions provided. It took a
+couple of hours because I had to figure out how OO macro dialogs work,
+and don't. There were some errors at the beginning that went away by
+themselves -- which always make me nervous because one is never sure if
+one day they might also decide to come back by themselves! I used OO
+v3.2 on linux so that may have contributed to the difficulty.</p>
+<p><a href="http://www.maphew.com/files/53/%3dScreenshot-results_StepB_do-8-octant-svg.png" title="Screenshot-results_StepB_do-8-octant-svg.png"><img alt="8-octant-svg_thumb.png" src="http://www.maphew.com/files/54/%3d8-octant-svg_thumb.png"/></a></p>
+<p>Results are at
+<a href="https://bitbucket.org/maphew/cahill-keyes/changeset/5b36f8fd8471" title="https://bitbucket.org/maphew/cahill-keyes/changeset/5b36f8fd8471">https://bitbucket.org/maphew/cahill-...t/5b36f8fd8471</a>
+(download using [get source] link at right)\
+ \
+ Anyway, the upshot is now I have a practical understanding of what the
+macros do and some glimmerings of how to improve one or two things. I
+don't have much faith in being able to use oo-Draw long term for this
+project as it is quite sluggish already with just the grid and graticule
+let alone any geography loaded. On the other hand, it *is* a working
+prototype so it's not time to discard just yet. :)\
+ \
+ The .svg file was created by a simple <em>File &gt; Export</em> from oo-Draw and
+loads into Inkscape very nicely. This is encouraging as it means the
+work is portable; SVG - scalable vector graphic - is a vendor 
+independent standard format understood by a variety of programs in both
+the graphic design and GIS/CAD industries.\
+  </p></div>
+    </content>
+    <updated>2010-10-08T08:00:00Z</updated>
+    <category term="gis"/>
+    <category term="cahill"/>
     <author>
       <name>matt wilkie</name>
       <email>maphew+website@gmail.com</email>

@@ -1,44 +1,46 @@
-<?xml version="1.0" ?><entry xmlns="http://www.w3.org/2005/Atom" xmlns:planet="http://planet.intertwingly.net/"><id>http://blog.suspended-chord.info/2013/11/25/ltd-week-nine/</id><link href="http://blog.suspended-chord.info/2013/11/25/ltd-week-nine/" rel="alternate" type="text/html"/><title>LTD Week Nine</title><summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Very busy week, work-wise.  Not much outside of work though…</p>
-
-<ul>
-<li>Work
-
-<ul>
-<li>Got our new t5-2 hardware talking to the storage array</li>
-<li>Scripted a few ftp jobs</li>
-</ul>
-</li>
-</ul></div></summary><content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Very busy week, work-wise.  Not much outside of work though…</p>
-
-<ul>
-<li>Work
-
-<ul>
-<li>Got our new t5-2 hardware talking to the storage array</li>
-<li>Scripted a few ftp jobs</li>
-<li>Added a server to our monitoring system</li>
-<li>Set up an install server for Solaris 10 01/13 SPARC</li>
-<li>Added some new LUNs to several machines</li>
-<li>Prepped for OS upgrades…</li>
-</ul>
-</li>
-<li>Responsibility
-
-<ul>
-<li>Maintained my tabata routine</li>
-</ul>
-</li>
-<li>Leisure
-
-<ul>
-<li>Fixed a minor DDOS attack (from Google’s address space?!?) on my servers… wtf?</li>
-<li>Read Crawl! #4</li>
-<li>Read Crawl! #5</li>
-<li>Rewrote the Mint Fudge sketchy-sketch</li>
-<li>Updated orison’s software</li>
-</ul>
-</li>
-</ul>
-
-
-<p>Doesn’t look like much, but it was a lot of time consuming BS.  Also lots of planning.</p></div></content><updated planet:format="November 25, 2013 12:00 AM">2013-11-25T00:00:00Z</updated><published planet:format="November 25, 2013 12:00 AM">2013-11-25T00:00:00Z</published><author><name>Jake Peck</name></author><source><id>http://blog.suspended-chord.info</id><author><name>Jake Peck</name></author><link href="http://blog.suspended-chord.info/leo.xml" rel="self" type="application/atom+xml"/><title>a-&gt;ab</title><updated planet:format="December 02, 2013 12:00 AM">2013-12-02T00:00:00Z</updated><planet:faceheight>85</planet:faceheight><planet:activity_threshold>0</planet:activity_threshold><planet:format>atom10</planet:format><planet:facewidth>65</planet:facewidth><planet:http_etag>&quot;f3d7e23407b2fe37425b0a16847abf6211933e00&quot;</planet:http_etag><planet:bozo>false</planet:bozo><planet:name>a→ab (Jacob Peck)</planet:name><planet:css-id>a-ab-jacob-peck</planet:css-id><planet:http_status>200</planet:http_status></source></entry>
+<?xml version="1.0"?>
+<entry xmlns="http://www.w3.org/2005/Atom" xmlns:planet="http://planet.intertwingly.net/"><id>http://blog.suspended-chord.info/2013/11/25/ltd-week-nine/</id><link href="http://blog.suspended-chord.info/2013/11/25/ltd-week-nine/" rel="alternate" type="text/html"/><title>LTD Week Nine</title><summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Very busy week, work-wise.  Not much outside of work though&#x2026;</p>
+
+<ul>
+<li>Work
+
+<ul>
+<li>Got our new t5-2 hardware talking to the storage array</li>
+<li>Scripted a few ftp jobs</li>
+</ul>
+</li>
+</ul></div></summary><content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Very busy week, work-wise.  Not much outside of work though&#x2026;</p>
+
+<ul>
+<li>Work
+
+<ul>
+<li>Got our new t5-2 hardware talking to the storage array</li>
+<li>Scripted a few ftp jobs</li>
+<li>Added a server to our monitoring system</li>
+<li>Set up an install server for Solaris 10 01/13 SPARC</li>
+<li>Added some new LUNs to several machines</li>
+<li>Prepped for OS upgrades&#x2026;</li>
+</ul>
+</li>
+<li>Responsibility
+
+<ul>
+<li>Maintained my tabata routine</li>
+</ul>
+</li>
+<li>Leisure
+
+<ul>
+<li>Fixed a minor DDOS attack (from Google&#x2019;s address space?!?) on my servers&#x2026; wtf?</li>
+<li>Read Crawl! #4</li>
+<li>Read Crawl! #5</li>
+<li>Rewrote the Mint Fudge sketchy-sketch</li>
+<li>Updated orison&#x2019;s software</li>
+</ul>
+</li>
+</ul>
+
+
+<p>Doesn&#x2019;t look like much, but it was a lot of time consuming BS.  Also lots of planning.</p></div></content><updated planet:format="November 25, 2013 12:00 AM">2013-11-25T00:00:00Z</updated><published planet:format="November 25, 2013 12:00 AM">2013-11-25T00:00:00Z</published><author><name>Jake Peck</name></author><source><id>http://blog.suspended-chord.info</id><author><name>Jake Peck</name></author><link href="http://blog.suspended-chord.info/leo.xml" rel="self" type="application/atom+xml"/><title>a-&gt;ab</title><updated planet:format="January 06, 2014 12:00 AM">2014-01-06T00:00:00Z</updated><planet:faceheight>85</planet:faceheight><planet:activity_threshold>0</planet:activity_threshold><planet:format>atom10</planet:format><planet:facewidth>65</planet:facewidth><planet:http_etag>"401a6cd50bfb38a6747f6c6d3379d68f60e319d3"</planet:http_etag><planet:bozo>false</planet:bozo><planet:name>a&#x2192;ab (Jacob Peck)</planet:name><planet:css-id>a-ab-jacob-peck</planet:css-id><planet:http_status>200</planet:http_status></source></entry>
+

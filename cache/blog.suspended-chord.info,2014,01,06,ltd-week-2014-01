@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<entry xmlns="http://www.w3.org/2005/Atom" xmlns:planet="http://planet.intertwingly.net/"><id>http://blog.suspended-chord.info/2014/01/06/ltd-week-2014-01/</id><link href="http://blog.suspended-chord.info/2014/01/06/ltd-week-2014-01/" rel="alternate" type="text/html"/><title>LTD Week 2014 01</title><summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Interesting week&#x2026; here&#x2019;s some highlights:</p>
+
+<ul>
+<li>Work
+
+<ul>
+<li>Finished up post-blackboard-migration cleanup</li>
+<li>Installed a custom page to make maintainence downtimes less user-hostile on blackboard</li>
+</ul>
+</li>
+</ul></div></summary><content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Interesting week&#x2026; here&#x2019;s some highlights:</p>
+
+<ul>
+<li>Work
+
+<ul>
+<li>Finished up post-blackboard-migration cleanup</li>
+<li>Installed a custom page to make maintainence downtimes less user-hostile on blackboard</li>
+<li>Fixed some yearly accounting errors related to holdiays&#x2026; silly unix</li>
+<li>Encountered a mysterious bug on an email script that only runs once a month</li>
+<li>Made a user account on one of our machines</li>
+</ul>
+</li>
+<li>Responsibility
+
+<ul>
+<li>Refactored my LTD stuff into an external script (things were getting ugly)</li>
+</ul>
+</li>
+<li>Leisure
+
+<ul>
+<li>Added @color support to @buttons in Leo</li>
+<li>Ran through a test run of migrating Leo from bzr to github</li>
+<li>Worked a bit on silica</li>
+<li>Updated the Leo color map</li>
+<li>Updated orison&#x2019;s software</li>
+<li>Failed to get a Red Eclipse server installed on orison&#x2026; I&#x2019;ll try again soon.</li>
+</ul>
+</li>
+</ul></div></content><updated planet:format="January 06, 2014 12:00 AM">2014-01-06T00:00:00Z</updated><published planet:format="January 06, 2014 12:00 AM">2014-01-06T00:00:00Z</published><author><name>Jake Peck</name></author><source><id>http://blog.suspended-chord.info</id><author><name>Jake Peck</name></author><link href="http://blog.suspended-chord.info/leo.xml" rel="self" type="application/atom+xml"/><title>a-&gt;ab</title><updated planet:format="January 06, 2014 12:00 AM">2014-01-06T00:00:00Z</updated><planet:faceheight>85</planet:faceheight><planet:activity_threshold>0</planet:activity_threshold><planet:format>atom10</planet:format><planet:facewidth>65</planet:facewidth><planet:http_etag>"401a6cd50bfb38a6747f6c6d3379d68f60e319d3"</planet:http_etag><planet:bozo>false</planet:bozo><planet:name>a&#x2192;ab (Jacob Peck)</planet:name><planet:css-id>a-ab-jacob-peck</planet:css-id><planet:http_status>200</planet:http_status></source></entry>
+
